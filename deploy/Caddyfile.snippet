@@ -1,0 +1,16 @@
+# Caddy block for education.xenoj.com (urps-curriculum on port 8001).
+#
+# This is NOT a standalone Caddyfile. The VPS's /etc/caddy/Caddyfile is a
+# copy of urogyn-analyzer/deploy/Caddyfile, so this block belongs in THAT
+# file (in the urogyn-analyzer repo, replacing the "Next app goes here"
+# example), committed and pushed there, then copied to /etc/caddy/Caddyfile.
+# If it only lives in /etc/caddy/Caddyfile, the next
+# `sudo cp .../urogyn-analyzer/deploy/Caddyfile /etc/caddy/Caddyfile`
+# silently drops it and education.xenoj.com goes dark.
+# See deploy/README.md, step 4.
+
+education.xenoj.com {
+	encode zstd gzip
+	reverse_proxy localhost:8001
+	tls /etc/ssl/cloudflare/cert.pem /etc/ssl/cloudflare/key.pem
+}

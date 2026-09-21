@@ -1,0 +1,25 @@
+# Install at /etc/systemd/system/urps-curriculum.service on the VPS, then:
+#   systemctl daemon-reload
+#   systemctl enable --now urps-curriculum
+#
+# Modeled on urogyn-analyzer.service (same box, same conventions). Fresh 2 +
+# Vite builds to a plain server bundle (_fresh/server.js, gitignored --
+# `deno task build` must be run after clone/pull, see deploy/README.md) and
+# is run directly with `deno serve`, which takes the port as a CLI flag.
+# urogyn-analyzer holds 8000; this site is 8001.
+
+[Unit]
+Description=urps-curriculum (Deno Fresh)
+After=network.target
+
+[Service]
+Type=simple
+User=berkley
+WorkingDirectory=/opt/apps/urps-curriculum
+Environment=PORT=8001
+ExecStart=/usr/local/bin/deno serve --port=${PORT} -A _fresh/server.js
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

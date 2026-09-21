@@ -1,0 +1,23 @@
+{
+  "tasks": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "deno serve -A _fresh/server.js",
+    "check": "deno check main.ts routes/ islands/ lib/",
+    "test": "deno test --allow-read tests/",
+    "extract": "python3 scripts/extract.py"
+  },
+  "imports": {
+    "@fresh/plugin-vite": "jsr:@fresh/plugin-vite@^1.1.2",
+    "@std/assert": "jsr:@std/assert@^1",
+    "fresh": "jsr:@fresh/core@^2.3.3",
+    "preact": "npm:preact@^10.29.1",
+    "preact/": "npm:/preact@^10.29.1/",
+    "@preact/signals": "npm:@preact/signals@^2.9.0",
+    "vite": "npm:vite@^7.3.6"
+  },
+  "nodeModulesDir": "auto",
+  "compilerOptions": { "jsx": "react-jsx", "jsxImportSource": "preact" },
+  "fmt": { "lineWidth": 110 },
+  "exclude": ["_fresh/", "mockups/"]
+}

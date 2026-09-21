@@ -1,0 +1,8 @@
+# Scripts/configs shipped to the Linux VPS must never be CRLF-converted by
+# Windows-side git (core.autocrlf=true), or bash/systemd will fail to parse
+# them.
+deploy/** text eol=lf
+*.sh text eol=lf
+
+# Vendored fonts: never diff or normalize.
+*.woff2 binary

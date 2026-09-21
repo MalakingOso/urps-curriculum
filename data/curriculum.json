@@ -1,0 +1,3430 @@
+{
+  "title": "URPS Fellowship Curriculum",
+  "blocks": [
+    {
+      "number": 1,
+      "year": 1,
+      "name": "Foundations I",
+      "sessions": [
+        1,
+        16
+      ]
+    },
+    {
+      "number": 2,
+      "year": 1,
+      "name": "Foundations II",
+      "sessions": [
+        17,
+        30
+      ]
+    },
+    {
+      "number": 3,
+      "year": 2,
+      "name": "Advanced Topics",
+      "sessions": [
+        31,
+        45
+      ]
+    },
+    {
+      "number": 4,
+      "year": 2,
+      "name": "Integration & Board Prep",
+      "sessions": [
+        46,
+        59
+      ]
+    }
+  ],
+  "gtlSections": [
+    {
+      "key": "anatomy",
+      "name": "Anatomy & Physiology"
+    },
+    {
+      "key": "ui-luts",
+      "name": "UI & LUTS"
+    },
+    {
+      "key": "pop",
+      "name": "Pelvic Organ Prolapse"
+    },
+    {
+      "key": "fi-dd",
+      "name": "FI & Defecatory Dysfunction"
+    },
+    {
+      "key": "rvf",
+      "name": "Rectovaginal Fistulas"
+    },
+    {
+      "key": "ugf-ud",
+      "name": "UG Fistulas & Urethral Diverticula"
+    },
+    {
+      "key": "gsm",
+      "name": "GSM & Vulvar Conditions"
+    },
+    {
+      "key": "uti",
+      "name": "UTI & Hematuria"
+    },
+    {
+      "key": "neuro",
+      "name": "Neuro-Urology"
+    },
+    {
+      "key": "pbs",
+      "name": "Pelvic Pain & PBS"
+    },
+    {
+      "key": "periop",
+      "name": "Peri-Operative Management"
+    },
+    {
+      "key": "scholarly",
+      "name": "Scholarly Activity & QI"
+    },
+    {
+      "key": "enrichment",
+      "name": "Professional & Enrichment"
+    }
+  ],
+  "urpDomains": [
+    {
+      "code": "URP1",
+      "name": "Pelvic Organ Prolapse",
+      "description": "Anatomy, diagnosis, non-invasive and surgical management (apical, anterior, posterior, obliterative)"
+    },
+    {
+      "code": "URP2",
+      "name": "Anorectal Disorders",
+      "description": "FI, defecatory dysfunction, neuromodulation, sphincteroplasty, RVF, OASIS"
+    },
+    {
+      "code": "URP3",
+      "name": "Vaginal/Urethral/Periurethral Masses",
+      "description": "Embryology, diagnosis, treatment including urethral diverticulum"
+    },
+    {
+      "code": "URP4",
+      "name": "UI, Frequency, Urgency, Nocturia",
+      "description": "SUI, OAB, pharmacotherapy, surgical management, neuromodulation"
+    },
+    {
+      "code": "URP5",
+      "name": "Neurogenic LUTD & Retention",
+      "description": "Neurologic conditions affecting LUT, urinary retention management"
+    },
+    {
+      "code": "URP6",
+      "name": "UTI and Hematuria",
+      "description": "Diagnosis, treatment of UTI, asymptomatic bacteriuria, hematuria workup"
+    },
+    {
+      "code": "URP7",
+      "name": "Bladder Pain & Myofascial Pain",
+      "description": "BPS/IC evaluation and treatment, pelvic floor dysfunction"
+    },
+    {
+      "code": "URP8",
+      "name": "Urinary Tract Injury",
+      "description": "Bladder, ureteral, urethral injury diagnosis and repair, fistulas"
+    },
+    {
+      "code": "URP9",
+      "name": "Special Considerations",
+      "description": "Congenital anomalies, post-cancer care, mesh/graft materials, perioperative management"
+    }
+  ],
+  "sessions": [
+    {
+      "number": 1,
+      "block": 1,
+      "kind": "clinical",
+      "title": "Pelvic Floor Anatomy & Levels of Support",
+      "urpCodes": "URP1.1.A-C",
+      "urpDomains": [
+        "URP1"
+      ],
+      "gtlLabel": "Pelvic Floor Anatomy & Physiology",
+      "gtl": [
+        "anatomy"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Anatomy (GTL 1a-j)",
+          "objectives": [
+            "Demonstrate knowledge of pelvic anatomy: genital, urinary, colorectal, musculoskeletal elements",
+            "Describe vascular supply to pelvic organs (external genitalia, uterus, kidney, ureter, urethra, bladder, anus, rectosigmoid)",
+            "Describe nerve supply to pelvic organs (sympathetic, parasympathetic, somatic, pelvic autonomic plexuses)",
+            "Explain normal anatomic supports of vagina, rectum, bladder, urethra, and uterus",
+            "Describe pelvic/retroperitoneal spaces; anterior abdominal wall anatomy",
+            "Describe vascular and nerve supply to urethral and anal sphincter mechanisms"
+          ]
+        },
+        {
+          "heading": "Embryology (GTL 1i-j)",
+          "objectives": [
+            "Describe normal embryologic development of genital and urinary tract",
+            "Describe common congenital abnormalities vs normal anatomy"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 1: Anatomy of the lower urinary tract, pelvic floor, and rectum",
+      "waltersChapters": [
+        1
+      ],
+      "primary": [
+        {
+          "citation": "DeLancey JOL. Am J Obstet Gynecol 1992;166:1717-28 (PMID: 1615980)",
+          "label": null,
+          "pmid": "1615980",
+          "pubmed": {
+            "title": "Anatomic aspects of vaginal eversion after hysterectomy",
+            "journal": "Am J Obstet Gynecol",
+            "year": 1992,
+            "firstAuthor": "DeLancey JO",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Wieslander CK et al. Am J Obstet Gynecol 2006;195(6):1736-1742 (PMID: 17132475)",
+          "label": null,
+          "pmid": "17132475",
+          "pubmed": {
+            "title": "Vascular anatomy of the presacral space in unembalmed female cadavers",
+            "journal": "Am J Obstet Gynecol",
+            "year": 2006,
+            "firstAuthor": "Wieslander CK",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "block": 1,
+      "kind": "clinical",
+      "title": "Lower Urinary Tract Function & Continence Mechanisms",
+      "urpCodes": "URP4.1.A-F",
+      "urpDomains": [
+        "URP4"
+      ],
+      "gtlLabel": "Pelvic Floor Anatomy & Physiology",
+      "gtl": [
+        "anatomy"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "LUT Physiology (GTL 2a)",
+          "objectives": [
+            "Describe normal LUT function during storage and micturition; continence mechanisms",
+            "Role of CNS, spinal, supraspinal, and PNS on LUT function",
+            "Reflex pathways: sympathetic, parasympathetic, somatic interactions",
+            "Key neurotransmitters: adrenergic, cholinergic, NO, ATP, growth factors",
+            "Urethral sphincter mechanism at rest and with physical stress",
+            "Pharmacologic agents for LUTD: anticholinergics, beta-3 agonists, alpha blockers",
+            "Estrogen and progesterone effects on GU tract function"
+          ]
+        },
+        {
+          "heading": "Colorectal & Utero-vaginal Physiology (GTL 2b-c)",
+          "objectives": [
+            "Colorectal function physiology; dietary and pharmacologic influences",
+            "Normal uterine/vaginal function before and after menopause"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 3-4: Neurophysiology and pharmacology; Physiology of pelvic muscles",
+      "waltersChapters": [
+        3,
+        4
+      ],
+      "primary": [
+        {
+          "citation": "Fowler CJ et al. Nat Rev Neurosci 2008;9(6):453-66 (PMID: 18490916)",
+          "label": null,
+          "pmid": "18490916",
+          "pubmed": {
+            "title": "The neural control of micturition",
+            "journal": "Nat Rev Neurosci",
+            "year": 2008,
+            "firstAuthor": "Fowler CJ",
+            "pmcid": "PMC2897743"
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 3,
+      "block": 1,
+      "kind": "clinical",
+      "title": "Perioperative Management & ERAS Protocols",
+      "urpCodes": "URP9.5.A-D",
+      "urpDomains": [
+        "URP9"
+      ],
+      "gtlLabel": "General Peri-Operative Management",
+      "gtl": [
+        "periop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Preoperative (GTL Periop 1a-g)",
+          "objectives": [
+            "Individualize surgical options; consider prior surgery, medical conditions, obesity, immunocompromise",
+            "Preoperative testing indications; medication management; anticoagulation",
+            "Informed consent; advance directives; geriatric considerations"
+          ]
+        },
+        {
+          "heading": "Intraoperative (GTL Periop 2a)",
+          "objectives": [
+            "Pre-anesthesia evaluation, OR readiness, time-out/debrief",
+            "Patient positioning; SSI and VTE prophylaxis; surgical energy sources"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 26: Complications of pelvic reconstructive surgery",
+      "waltersChapters": [
+        26
+      ],
+      "primary": [
+        {
+          "citation": "Zacharakis D et al. Enhanced Recovery Protocols in Urogynecologic and Pelvic Floor Reconstructive Surgery: A Systematic Review and Meta-Analysis. Urogynecology (Phila) 2023 (PMID: 36548102)",
+          "label": null,
+          "pmid": "36548102",
+          "pubmed": {
+            "title": "Enhanced Recovery Protocols in Urogynecologic and Pelvic Floor Reconstructive Surgery: A Systematic Review and Meta-Analysis",
+            "journal": "Urogynecology (Phila)",
+            "year": 2023,
+            "firstAuthor": "Zacharakis D",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 4,
+      "block": 1,
+      "kind": "clinical",
+      "title": "SUI: Comprehensive Evaluation & Treatment",
+      "urpCodes": "URP4.2.A-E, URP4.3.A-G",
+      "urpDomains": [
+        "URP4"
+      ],
+      "gtlLabel": "UI & LUTS",
+      "gtl": [
+        "ui-luts"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Evaluation (GTL UI&LUTS; 3a)",
+          "objectives": [
+            "Directed history: UI/LUTS symptoms, type, duration, severity, contributing factors",
+            "Screen for co-existing PFDs; evaluate environmental factors/diseases impacting treatment",
+            "Impact of medications on UI/LUTS (sedatives, hypnotics, diuretics, antidepressants)",
+            "Focused pelvic floor exam: stress testing, urethral mobility, PVR, muscle tone, reflexes, neuro status"
+          ]
+        },
+        {
+          "heading": "Non-Surgical Treatment (GTL UI&LUTS; 4a-e)",
+          "objectives": [
+            "Functional interventions: weight optimization, fluid management, toileting, ISC, pads",
+            "PFPT: muscle strength building, relaxation, trigger point management",
+            "Pharmacologic: anti-muscarinics, beta-agonists, topical estrogen, TCAs, SNRIs",
+            "Pessaries for UI/LUTS: types, fitting, care, complications, compliance"
+          ]
+        },
+        {
+          "heading": "Surgical Treatment (GTL UI&LUTS; 5b-h)",
+          "objectives": [
+            "Retropubic and transobturator MUS, mini-slings; fascial/pubovaginal slings",
+            "Urethral bulking agents; Burch urethropexy/colposuspension",
+            "For all: indications, contraindications, success rates, complications, patient selection",
+            "Mesh and graft use in surgical procedures for UI/LUTS"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 8-9, 14-17: Classification, evaluation, nonsurgical & surgical management of SUI",
+      "waltersChapters": [
+        8,
+        9,
+        14,
+        15,
+        16,
+        17
+      ],
+      "primary": [
+        {
+          "citation": "Richter HE et al. N Engl J Med 2010;362:2066-76 (PMID: 20479459)",
+          "label": null,
+          "pmid": "20479459",
+          "pubmed": {
+            "title": "Retropubic versus transobturator midurethral slings for stress incontinence",
+            "journal": "N Engl J Med",
+            "year": 2010,
+            "firstAuthor": "Richter HE",
+            "pmcid": "PMC2962585"
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "VALUE Trial: Nager CW et al. N Engl J Med 2012;366(21):1987-97 (PMID: 22551104)",
+          "label": "VALUE Trial",
+          "pmid": "22551104",
+          "pubmed": {
+            "title": "A randomized trial of urodynamic testing before stress-incontinence surgery",
+            "journal": "N Engl J Med",
+            "year": 2012,
+            "firstAuthor": "Nager CW",
+            "pmcid": "PMC3386296"
+          }
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "block": 1,
+      "kind": "professional",
+      "title": "Research Methodology & Study Design",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": "Scholarly Activity",
+      "gtl": [
+        "scholarly"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Study Design (GTL Scholarly Activity 1-7)",
+          "objectives": [
+            "Design hypothesis-driven study: problem, hypothesis, specific aims, significance, sample size",
+            "Study bias (selection, information, confounding); study design types",
+            "Measures of central tendency; parametric vs non-parametric analysis",
+            "Prevalence vs incidence; sensitivity, specificity, PPV, NPV",
+            "Power analysis; Type I and Type II error",
+            "Statistical tests: chi-square, t-test, Mann-Whitney U, ANOVA, regression, survival analysis",
+            "Interpret confidence intervals and research limitations"
+          ]
+        }
+      ],
+      "reading": "AUGS GTL: Scholarly Activity Section; Walters Ch. 41: Outcomes and QOL measures",
+      "waltersChapters": [
+        41
+      ],
+      "primary": [
+        {
+          "citation": "Grimes DA et al. Lancet 2002;359:57-61 (PMID: 11809203)",
+          "label": null,
+          "pmid": "11809203",
+          "pubmed": {
+            "title": "An overview of clinical research: the lay of the land",
+            "journal": "Lancet",
+            "year": 2002,
+            "firstAuthor": "Grimes DA",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 6,
+      "block": 1,
+      "kind": "clinical",
+      "title": "OAB: Evaluation & Behavioral/Pharmacologic Management",
+      "urpCodes": "URP4.4.A-J",
+      "urpDomains": [
+        "URP4"
+      ],
+      "gtlLabel": "UI & LUTS",
+      "gtl": [
+        "ui-luts"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Evaluation (GTL UI&LUTS; 3a-c)",
+          "objectives": [
+            "Directed history for OAB; screen co-existing PFDs",
+            "Urinary diaries, pad tests; urinalysis and urine culture",
+            "Validated condition-specific QOL questionnaires for UI/LUTS"
+          ]
+        },
+        {
+          "heading": "Non-Surgical Treatment (GTL UI&LUTS; 4a-d)",
+          "objectives": [
+            "Behavioral/functional interventions: fluid management, bladder training, scheduled voiding",
+            "PFPT including biofeedback",
+            "Pharmacologic: anti-muscarinics and beta-agonists (indications, contraindications, dose, efficacy, adverse effects including cognitive, mechanism, cost, monitoring, compliance)",
+            "Topical estrogen in OAB management"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 31: Overactive bladder syndrome, polyuria, and nocturia",
+      "waltersChapters": [
+        31
+      ],
+      "primary": [
+        {
+          "citation": "Cameron AP et al. The AUA/SUFU Guideline on the Diagnosis and Treatment of Idiopathic Overactive Bladder. J Urol 2024 (PMID: 38651651)",
+          "label": null,
+          "pmid": "38651651",
+          "pubmed": {
+            "title": "The AUA/SUFU Guideline on the Diagnosis and Treatment of Idiopathic Overactive Bladder",
+            "journal": "J Urol",
+            "year": 2024,
+            "firstAuthor": "Cameron AP",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "ABC Trial: Visco AG et al. N Engl J Med 2012;367(19):1803-13 (PMID: 23036134)",
+          "label": "ABC Trial",
+          "pmid": "23036134",
+          "pubmed": {
+            "title": "Anticholinergic therapy vs. onabotulinumtoxina for urgency urinary incontinence",
+            "journal": "N Engl J Med",
+            "year": 2012,
+            "firstAuthor": "Visco AG",
+            "pmcid": "PMC3543828"
+          }
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "block": 1,
+      "kind": "clinical",
+      "title": "OAB: Advanced Therapies (Botox, SNM, PTNS)",
+      "urpCodes": "URP4.4.F-I",
+      "urpDomains": [
+        "URP4"
+      ],
+      "gtlLabel": "UI & LUTS",
+      "gtl": [
+        "ui-luts"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Office-Based (GTL UI&LUTS; 5a)",
+          "objectives": [
+            "PTNS: indications, contraindications, success rates, complications, patient selection",
+            "Peripheral nerve evaluation (PNE)"
+          ]
+        },
+        {
+          "heading": "Endoscopic (GTL UI&LUTS; 5b)",
+          "objectives": [
+            "Intravesical botulinum toxin injection: technique, indications, efficacy, complications"
+          ]
+        },
+        {
+          "heading": "Neuromodulation (GTL UI&LUTS; 5e)",
+          "objectives": [
+            "Sacral neuromodulation: indications, success rates, complications, patient selection, management"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 32: Refractory overactive bladder",
+      "waltersChapters": [
+        32
+      ],
+      "primary": [
+        {
+          "citation": "Amundsen CL et al. JAMA 2016;316:1366-74 (PMID: 27701661)",
+          "label": null,
+          "pmid": "27701661",
+          "pubmed": {
+            "title": "OnabotulinumtoxinA vs Sacral Neuromodulation on Refractory Urgency Urinary Incontinence in Women: A Randomized Clinical Trial",
+            "journal": "JAMA",
+            "year": 2016,
+            "firstAuthor": "Amundsen CL",
+            "pmcid": "PMC5399419"
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "ORBIT Trial: Peters KM et al. J Urol 2009;182(3):1055-61 (PMID: 19616802)",
+          "label": "ORBIT Trial",
+          "pmid": "19616802",
+          "pubmed": {
+            "title": "Randomized trial of percutaneous tibial nerve stimulation versus extended-release tolterodine: results from the overactive bladder innovative therapy trial",
+            "journal": "J Urol",
+            "year": 2009,
+            "firstAuthor": "Peters KM",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "block": 1,
+      "kind": "clinical",
+      "title": "Advanced Urodynamics & Interpretation",
+      "urpCodes": "URP4.2.E",
+      "urpDomains": [
+        "URP4"
+      ],
+      "gtlLabel": "UI & LUTS",
+      "gtl": [
+        "ui-luts"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Diagnostic Testing (GTL UI&LUTS; 3b-iv)",
+          "objectives": [
+            "Perform and interpret: simple cystometry, uroflowmetry, multichannel UDS (CMG, voiding pressure), UPP, EMG",
+            "For each: diagnostic terminology, normal values, test reliability, variations, technical specifications, indications, limitations, cost-effectiveness"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 11: Urodynamics: Indications, techniques, interpretation, and clinical utility",
+      "waltersChapters": [
+        11
+      ],
+      "primary": [
+        {
+          "citation": "Rosier PFWM et al. International Continence Society Good Urodynamic Practices and Terms 2016: Urodynamics, uroflowmetry, cystometry, and pressure-flow study. Neurourol Urodyn 2017 (PMID: 27917521)",
+          "label": null,
+          "pmid": "27917521",
+          "pubmed": {
+            "title": "International Continence Society Good Urodynamic Practices and Terms 2016: Urodynamics, uroflowmetry, cystometry, and pressure-flow study",
+            "journal": "Neurourol Urodyn",
+            "year": 2017,
+            "firstAuthor": "Rosier PFWM",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "VALUE Trial: Nager CW et al. N Engl J Med 2012;366(21):1987-97 (PMID: 22551104)",
+          "label": "VALUE Trial",
+          "pmid": "22551104",
+          "pubmed": {
+            "title": "A randomized trial of urodynamic testing before stress-incontinence surgery",
+            "journal": "N Engl J Med",
+            "year": 2012,
+            "firstAuthor": "Nager CW",
+            "pmcid": "PMC3386296"
+          }
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "block": 1,
+      "kind": "clinical",
+      "title": "Nocturia: Evaluation & Management",
+      "urpCodes": "URP4.5.A-D",
+      "urpDomains": [
+        "URP4"
+      ],
+      "gtlLabel": "UI & LUTS",
+      "gtl": [
+        "ui-luts"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Evaluation & Treatment (GTL UI&LUTS; 3a, 3c, 4a)",
+          "objectives": [
+            "Impact of medications on LUTS including diuretics",
+            "Impact of medical conditions: diabetes, bowel dysfunction, dementia, OSA, renal disease",
+            "Functional factors: mobility, cognitive impairment, obesity, nocturnal polyuria",
+            "Interventions: fluid management, nocturnal polyuria management, OSA management"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 31: Overactive bladder syndrome, polyuria, and nocturia",
+      "waltersChapters": [
+        31
+      ],
+      "primary": [
+        {
+          "citation": "Hashim H et al. Neurourol Urodyn 2019;38:478-98 (PMID: 30779378)",
+          "label": null,
+          "pmid": "30779378",
+          "pubmed": {
+            "title": "International Continence Society consensus on the diagnosis and treatment of nocturia",
+            "journal": "Neurourol Urodyn",
+            "year": 2019,
+            "firstAuthor": "Everaert K",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 10,
+      "block": 1,
+      "kind": "clinical",
+      "title": "POP: Evaluation, POP-Q & Pessary Management",
+      "urpCodes": "URP1.2.A-B, URP1.3.A-E",
+      "urpDomains": [
+        "URP1"
+      ],
+      "gtlLabel": "POP Treatment",
+      "gtl": [
+        "pop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "General Knowledge (GTL POP 2a-g)",
+          "objectives": [
+            "International definitions; relationship of POP to UI, FI, PFD, UTIs",
+            "Common POP symptoms vs co-existing symptoms not due to POP",
+            "LUT/bowel symptoms: persistence vs resolution after surgery; occult SUI pathophysiology"
+          ]
+        },
+        {
+          "heading": "Evaluation (GTL POP 3a)",
+          "objectives": [
+            "POP-Q; paravaginal defect, enterocele, perineal descensus assessment",
+            "Bimanual exam; cough stress test with/without reduction; urethral mobility; rectal exam"
+          ]
+        },
+        {
+          "heading": "Pessary Management (GTL POP 4c)",
+          "objectives": [
+            "Types; choice based on patient factors and sexual activity; fitting process",
+            "Care options, independent care instructions, complications, compliance",
+            "Local estrogen therapy indications and use"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 8-9, 14: Classification, evaluation, and nonsurgical management",
+      "waltersChapters": [
+        8,
+        9,
+        14
+      ],
+      "primary": [
+        {
+          "citation": "Bump RC et al. Am J Obstet Gynecol 1996;175:10-17 (PMID: 8694033)",
+          "label": null,
+          "pmid": "8694033",
+          "pubmed": {
+            "title": "The standardization of terminology of female pelvic organ prolapse and pelvic floor dysfunction",
+            "journal": "Am J Obstet Gynecol",
+            "year": 1996,
+            "firstAuthor": "Bump RC",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "PESSRI Study: Cundiff GW et al. Am J Obstet Gynecol 2007;196(4):405.e1-8 (PMID: 17403437)",
+          "label": "PESSRI Study",
+          "pmid": "17403437",
+          "pubmed": {
+            "title": "The PESSRI study: symptom relief outcomes of a randomized crossover trial of the ring and Gellhorn pessaries",
+            "journal": "Am J Obstet Gynecol",
+            "year": 2007,
+            "firstAuthor": "Cundiff GW",
+            "pmcid": null
+          }
+        },
+        {
+          "citation": "Barber MD et al. Obstet Gynecol 2009;114(3):600-609 (PMID: 19701041)",
+          "label": null,
+          "pmid": "19701041",
+          "pubmed": {
+            "title": "Defining success after surgery for pelvic organ prolapse",
+            "journal": "Obstet Gynecol",
+            "year": 2009,
+            "firstAuthor": "Barber MD",
+            "pmcid": "PMC2904469"
+          }
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "block": 1,
+      "kind": "clinical",
+      "title": "POP: Apical Compartment Procedures",
+      "urpCodes": "URP1.4.A-E",
+      "urpDomains": [
+        "URP1"
+      ],
+      "gtlLabel": "POP Treatment",
+      "gtl": [
+        "pop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Vaginal Procedures (GTL POP 5a-i)",
+          "objectives": [
+            "McCall's culdoplasty, USLS, SSLS, iliococcygeus suspension, Manchester"
+          ]
+        },
+        {
+          "heading": "MIS and Open (GTL POP 5a-ii, iii)",
+          "objectives": [
+            "Sacrocolpopexy (laparoscopic, robotic, open); USLS; sacro-hysteropexy"
+          ]
+        },
+        {
+          "heading": "For All (GTL POP 5b, 5d)",
+          "objectives": [
+            "Indications, contraindications, success rates, complications, patient selection",
+            "Role of hysterectomy; total vs supracervical; uterine conservation",
+            "Evidence for prophylactic continence procedures at time of POP surgery"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 21-22: Surgical treatment of vaginal apex prolapse; Uterine preservation",
+      "waltersChapters": [
+        21,
+        22
+      ],
+      "primary": [
+        {
+          "citation": "Barber MD et al. JAMA 2014;311:1023-34 (PMID: 24618964)",
+          "label": null,
+          "pmid": "24618964",
+          "pubmed": {
+            "title": "Comparison of 2 transvaginal surgical approaches and perioperative behavioral therapy for apical vaginal prolapse: the OPTIMAL randomized trial",
+            "journal": "JAMA",
+            "year": 2014,
+            "firstAuthor": "Barber MD",
+            "pmcid": "PMC4083455"
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 12,
+      "block": 1,
+      "kind": "clinical",
+      "title": "POP: Anterior & Posterior Compartment Procedures",
+      "urpCodes": "URP1.5.A-C, URP1.6.A-D",
+      "urpDomains": [
+        "URP1"
+      ],
+      "gtlLabel": "POP Treatment",
+      "gtl": [
+        "pop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Vaginal Procedures (GTL POP 5a-i)",
+          "objectives": [
+            "Anterior colporrhaphy; posterior colporrhaphy and perineoplasty"
+          ]
+        },
+        {
+          "heading": "MIS (GTL POP 5a-ii)",
+          "objectives": [
+            "Paravaginal defect repair (laparoscopic/robotic and open)"
+          ]
+        },
+        {
+          "heading": "Graft Augmentation (GTL POP 5c)",
+          "objectives": [
+            "Indications, evidence, patient selection; types of graft materials (autograft, allograft, xenograft, meshes)",
+            "Characteristics: pore size, filament type, flexibility, tensile strength",
+            "Complications and management; outcomes"
+          ]
+        },
+        {
+          "heading": "Historic (GTL POP 5a-iv)",
+          "objectives": [
+            "Transvaginal mesh prolapse repair"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 19-20: Surgical treatment of anterior and posterior vaginal wall prolapse",
+      "waltersChapters": [
+        19,
+        20
+      ],
+      "primary": [
+        {
+          "citation": "Maher C et al. Cochrane Database Syst Rev 2016;11:CD004014 (PMID: 27901278)",
+          "label": null,
+          "pmid": "27901278",
+          "pubmed": {
+            "title": "Surgery for women with anterior compartment prolapse",
+            "journal": "Cochrane Database Syst Rev",
+            "year": 2016,
+            "firstAuthor": "Maher C",
+            "pmcid": "PMC6464975"
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Friedman T et al. Risk factors for prolapse recurrence: systematic review and meta-analysis. Int Urogynecol J 2018 (PMID: 28921033)",
+          "label": null,
+          "pmid": "28921033",
+          "pubmed": {
+            "title": "Risk factors for prolapse recurrence: systematic review and meta-analysis",
+            "journal": "Int Urogynecol J",
+            "year": 2018,
+            "firstAuthor": "Friedman T",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "block": 1,
+      "kind": "clinical",
+      "title": "Obliterative Procedures for POP",
+      "urpCodes": "URP1.7.A-C",
+      "urpDomains": [
+        "URP1"
+      ],
+      "gtlLabel": "POP Treatment",
+      "gtl": [
+        "pop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Obliterative Surgery (GTL POP 5a-i-i)",
+          "objectives": [
+            "Colpocleisis: LeFort/partial and complete",
+            "Indications, contraindications, success rates, complications, patient selection",
+            "Role of hysterectomy in obliterative procedures"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 23: Obliterative procedures for pelvic organ prolapse",
+      "waltersChapters": [
+        23
+      ],
+      "primary": [
+        {
+          "citation": "Grzybowska ME et al. Colpocleisis as an obliterative surgery for pelvic organ prolapse: is it still a viable option in the twenty-first century? Narrative review. Int Urogynecol J 2022 (PMID: 34406418)",
+          "label": null,
+          "pmid": "34406418",
+          "pubmed": {
+            "title": "Colpocleisis as an obliterative surgery for pelvic organ prolapse: is it still a viable option in the twenty-first century? Narrative review",
+            "journal": "Int Urogynecol J",
+            "year": 2022,
+            "firstAuthor": "Grzybowska ME",
+            "pmcid": "PMC8739283"
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Felder L et al. How does colpocleisis for pelvic organ prolapse in older women affect quality of life, body image, and sexuality? A critical review of the literature. Womens Health (Lond) 2022 (PMID: 35796579)",
+          "label": null,
+          "pmid": "35796579",
+          "pubmed": {
+            "title": "How does colpocleisis for pelvic organ prolapse in older women affect quality of life, body image, and sexuality? A critical review of the literature",
+            "journal": "Womens Health (Lond)",
+            "year": 2022,
+            "firstAuthor": "Felder L",
+            "pmcid": "PMC9274413"
+          }
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "block": 1,
+      "kind": "clinical",
+      "title": "Pelvic Floor Imaging: MRI",
+      "urpCodes": "URP2.2.B",
+      "urpDomains": [
+        "URP2"
+      ],
+      "gtlLabel": "POP Treatment; UI & LUTS",
+      "gtl": [
+        "pop",
+        "ui-luts"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Imaging (GTL POP 3b-iii; UI&LUTS; 3b)",
+          "objectives": [
+            "Role of imaging in evaluation of POP",
+            "Evidence for use and interpretation of MRI for pelvic floor evaluation",
+            "Diagnostic terminology, normal values, test reliability, indications, limitations"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 13: Radiologic studies of the lower urinary tract and pelvic floor",
+      "waltersChapters": [
+        13
+      ],
+      "primary": [
+        {
+          "citation": "Khatri G et al. Magn Reson Imaging Clin N Am 2017;25:611-34 (PMID: 28668155)",
+          "label": null,
+          "pmid": "28668155",
+          "pubmed": {
+            "title": "MR Imaging of the Pelvic Floor",
+            "journal": "Magn Reson Imaging Clin N Am",
+            "year": 2017,
+            "firstAuthor": "Khatri G",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 15,
+      "block": 1,
+      "kind": "clinical",
+      "title": "Pelvic Floor Imaging: Ultrasound & Defecography",
+      "urpCodes": "URP2.2.B",
+      "urpDomains": [
+        "URP2"
+      ],
+      "gtlLabel": "FI & DD; POP Treatment",
+      "gtl": [
+        "fi-dd",
+        "pop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Imaging (GTL FI&DD 3b-x; POP 3b-iii)",
+          "objectives": [
+            "Perform and interpret anal ultrasonography",
+            "Role of US and defecography in evaluation of POP and defecatory dysfunction"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 13: Radiologic studies of the lower urinary tract and pelvic floor",
+      "waltersChapters": [
+        13
+      ],
+      "primary": [
+        {
+          "citation": "Dietz HP. Ultrasound in the investigation of pelvic floor disorders. Curr Opin Obstet Gynecol 2020 (PMID: 32833745)",
+          "label": null,
+          "pmid": "32833745",
+          "pubmed": {
+            "title": "Ultrasound in the investigation of pelvic floor disorders",
+            "journal": "Curr Opin Obstet Gynecol",
+            "year": 2020,
+            "firstAuthor": "Dietz HP",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 16,
+      "block": 1,
+      "kind": "mock",
+      "title": "Mock Oral Boards - Session 1",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": null,
+      "gtl": [
+        "anatomy",
+        "ui-luts",
+        "pop",
+        "fi-dd",
+        "periop",
+        "scholarly"
+      ],
+      "description": "Longitudinal assessment: comprehensive case-based oral examination covering all Year 1 Block 1 GTL sections: Pelvic Floor Anatomy & Physiology, UI & LUTS, POP Treatment, FI & DD, General Peri-Operative Management, Scholarly Activity",
+      "objectiveGroups": [],
+      "reading": "Review all Block 1 topics",
+      "waltersChapters": [],
+      "primary": [
+        {
+          "citation": "AUGS/AUA Board Review Materials",
+          "label": null,
+          "pmid": null
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 17,
+      "block": 2,
+      "kind": "clinical",
+      "title": "Fecal Incontinence: Evaluation & Management",
+      "urpCodes": "URP2.1.A-C, URP2.2.A-B",
+      "urpDomains": [
+        "URP2"
+      ],
+      "gtlLabel": "FI & DD Treatment",
+      "gtl": [
+        "fi-dd"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Anatomy & Physiology (GTL FI&DD 1a-c)",
+          "objectives": [
+            "Anatomic alterations and impact on colorectal function (storage and defecation)",
+            "Impact of non-gynecologic physiology on FI/DD (CV, pulmonary, endocrine, renal, MSK)"
+          ]
+        },
+        {
+          "heading": "Evaluation (GTL FI&DD 3a-b)",
+          "objectives": [
+            "Directed history; stool classification tools; focused exam (perineal, rectal, sphincter eval)",
+            "Diagnostic testing: bowel diaries, anal manometry, anal ultrasonography"
+          ]
+        },
+        {
+          "heading": "Non-Surgical Treatment (GTL FI&DD 4a-d)",
+          "objectives": [
+            "Functional interventions: fluid, dietary changes, toileting management, defecation aids",
+            "PFPT; pharmacologic: anti-diarrheals, fiber, laxatives, softeners"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 27: Fecal incontinence",
+      "waltersChapters": [
+        27
+      ],
+      "primary": [
+        {
+          "citation": "Brown HW et al. Management of Fecal Incontinence. Obstet Gynecol 2020 (PMID: 32925633)",
+          "label": null,
+          "pmid": "32925633",
+          "pubmed": {
+            "title": "Management of Fecal Incontinence",
+            "journal": "Obstet Gynecol",
+            "year": 2020,
+            "firstAuthor": "Brown HW",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "CAPABLe Trial: Jelovsek JE et al. Lancet Gastroenterol Hepatol 2019;4(9):698-710 (PMID: 31320277)",
+          "label": "CAPABLe Trial",
+          "pmid": "31320277",
+          "pubmed": {
+            "title": "Controlling faecal incontinence in women by performing anal exercises with biofeedback or loperamide: a randomised clinical trial",
+            "journal": "Lancet Gastroenterol Hepatol",
+            "year": 2019,
+            "firstAuthor": "Jelovsek JE",
+            "pmcid": "PMC6708078"
+          }
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "block": 2,
+      "kind": "clinical",
+      "title": "Defecatory Dysfunction: Diagnosis & Treatment",
+      "urpCodes": "URP2.3.A-B, URP2.4.A-B, URP2.5.A-B",
+      "urpDomains": [
+        "URP2"
+      ],
+      "gtlLabel": "FI & DD Treatment",
+      "gtl": [
+        "fi-dd"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Pathophysiology (GTL FI&DD 1a-c)",
+          "objectives": [
+            "Anatomic and functional causes of obstructed/disordered defecation (rectocele, enterocele, rectal intussusception, dyssynergia)",
+            "Rome IV framework for functional constipation and defecatory disorders"
+          ]
+        },
+        {
+          "heading": "Evaluation (GTL FI&DD 3a-b)",
+          "objectives": [
+            "Directed history; bowel diaries, stool classification (Bristol scale)",
+            "Focused exam: rectal exam, assessment for rectocele/enterocele/rectal prolapse",
+            "Diagnostic testing: anorectal manometry, balloon expulsion test, defecography"
+          ]
+        },
+        {
+          "heading": "Treatment (GTL FI&DD 4a-d, 5a-c)",
+          "objectives": [
+            "Non-surgical: fiber, osmotic/stimulant laxatives, biofeedback and PFPT for dyssynergic defecation",
+            "Neuromodulation: PTNS for defecatory/evacuation disorders",
+            "Surgical: posterior colporrhaphy/perineoplasty, rectocele repair; indications and outcomes"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 28: Constipation",
+      "waltersChapters": [
+        28
+      ],
+      "primary": [
+        {
+          "citation": "Pratt TS et al. Evaluation and management of defecatory dysfunction in women. Curr Opin Obstet Gynecol 2018 (PMID: 30247166)",
+          "label": null,
+          "pmid": "30247166",
+          "pubmed": {
+            "title": "Evaluation and management of defecatory dysfunction in women",
+            "journal": "Curr Opin Obstet Gynecol",
+            "year": 2018,
+            "firstAuthor": "Pratt T",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "NOTABLE Trial: Richter HE et al. Am J Gastroenterol 2022;117(4):654-667 (PMID: 35354778)",
+          "label": "NOTABLE Trial",
+          "pmid": "35354778",
+          "pubmed": {
+            "title": "Percutaneous Tibial Nerve Stimulation vs Sham Stimulation for Fecal Incontinence in Women: NeurOmodulaTion for Accidental Bowel Leakage Randomized Clinical Trial",
+            "journal": "Am J Gastroenterol",
+            "year": 2022,
+            "firstAuthor": "Zyczynski HM",
+            "pmcid": "PMC8988447"
+          }
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "block": 2,
+      "kind": "professional",
+      "title": "Geriatric Urogynecology & Frailty Assessment",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": "Pelvic Floor Anatomy & Physiology; Peri-Op Mgmt",
+      "gtl": [
+        "anatomy",
+        "periop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Geriatric Physiology (GTL Anatomy 2e-f)",
+          "objectives": [
+            "Impact on: cardiovascular, pulmonary, renal, MSK, neurologic, integumentary, GI, immune systems",
+            "Successful aging concept in medical and surgical care"
+          ]
+        },
+        {
+          "heading": "Perioperative (GTL Periop 1g)",
+          "objectives": [
+            "Functional status assessment; impact of surgery on independent living",
+            "Need for hospitalization, rehabilitation, in-home nursing"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 6: Epidemiology and psychosocial impact; Ch. 26: Complications",
+      "waltersChapters": [
+        6
+      ],
+      "primary": [
+        {
+          "citation": "Ackenbom MF et al. Int Urogynecol J 2020;32(2):433-442 (PMID: 32827107)",
+          "label": null,
+          "pmid": "32827107",
+          "pubmed": {
+            "title": "Incidence of postoperative cognitive dysfunction in older women undergoing pelvic organ prolapse surgery",
+            "journal": "Int Urogynecol J",
+            "year": 2021,
+            "firstAuthor": "Ackenbom MF",
+            "pmcid": "PMC8721672"
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Di Donato V et al. Gynecol Oncol 2021;161:11-19 (PMID: 33414025)",
+          "label": null,
+          "pmid": "33414025",
+          "pubmed": {
+            "title": "Preoperative frailty assessment in patients undergoing gynecologic oncology surgery: A systematic review",
+            "journal": "Gynecol Oncol",
+            "year": 2021,
+            "firstAuthor": "Di Donato V",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "block": 2,
+      "kind": "clinical",
+      "title": "OASIS: Prevention, Repair & Long-term Management",
+      "urpCodes": "URP2.8.A-B",
+      "urpDomains": [
+        "URP2"
+      ],
+      "gtlLabel": "Rectovaginal Fistulas",
+      "gtl": [
+        "rvf"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "OASIS (GTL RVF 2b; FII)",
+          "objectives": [
+            "Epidemiology/risk factors: vaginal childbirth, operative delivery, episiotomy, OASIS",
+            "Immediate and delayed surgical treatment; future delivery management",
+            "Principles of repair, timing, postoperative bowel regimen"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 29: Rectovaginal fistula and perineal breakdown",
+      "waltersChapters": [
+        29
+      ],
+      "primary": [
+        {
+          "citation": "Harvey MA et al. Obstetrical Anal Sphincter Injuries (OASIS): Prevention, Recognition, and Repair. J Obstet Gynaecol Can 2015 (PMID: 26637088)",
+          "label": null,
+          "pmid": "26637088",
+          "pubmed": {
+            "title": "Obstetrical Anal Sphincter Injuries (OASIS): Prevention, Recognition, and Repair",
+            "journal": "J Obstet Gynaecol Can",
+            "year": 2015,
+            "firstAuthor": "Harvey MA",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "BOOST Trial: Richter HE et al. FPMRS 2015;21(4):182-9 (PMID: 25679358)",
+          "label": "BOOST Trial",
+          "pmid": "25679358",
+          "pubmed": {
+            "title": "Incidence and Predictors of Anal Incontinence After Obstetric Anal Sphincter Injury in Primiparous Women",
+            "journal": "Female Pelvic Med Reconstr Surg",
+            "year": 2015,
+            "firstAuthor": "Richter HE",
+            "pmcid": "PMC4481184"
+          }
+        },
+        {
+          "citation": "CAPS Trial: Handa VL et al. Obstet Gynecol 2006;108(4):863-72 (PMID: 17012447)",
+          "label": "CAPS Trial",
+          "pmid": "17012447",
+          "pubmed": {
+            "title": "Fecal and urinary incontinence in primiparous women",
+            "journal": "Obstet Gynecol",
+            "year": 2006,
+            "firstAuthor": "Borello-France D",
+            "pmcid": null
+          }
+        },
+        {
+          "citation": "Schmidt PC et al. Repair of episiotomy and obstetrical perineal lacerations (first-fourth). Am J Obstet Gynecol 2024 (PMID: 37427859)",
+          "label": null,
+          "pmid": "37427859",
+          "pubmed": {
+            "title": "Repair of episiotomy and obstetrical perineal lacerations (first-fourth)",
+            "journal": "Am J Obstet Gynecol",
+            "year": 2024,
+            "firstAuthor": "Schmidt PC",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "block": 2,
+      "kind": "clinical",
+      "title": "Rectovaginal Fistula Repair",
+      "urpCodes": "URP2.6.A-B",
+      "urpDomains": [
+        "URP2"
+      ],
+      "gtlLabel": "Rectovaginal Fistulas",
+      "gtl": [
+        "rvf"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Evaluation (GTL RVF 3a-b)",
+          "objectives": [
+            "Directed history/exam; differentiate RVF from colovaginal, anovaginal fistula, fistula-in-ano",
+            "Imaging: CT, MRI, fistulogram"
+          ]
+        },
+        {
+          "heading": "Surgical Treatment (GTL RVF 5a-g)",
+          "objectives": [
+            "Simple fistulectomy, transverse transperineal, trans-sphincteric, transabdominal approaches",
+            "Flaps: Martius, peritoneal/omental, rectus abdominus — creation, application, complications",
+            "Principles: timing, bowel prep, postop regimen, consideration for diverting colostomy"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 29: Rectovaginal fistula and perineal breakdown",
+      "waltersChapters": [
+        29
+      ],
+      "primary": [
+        {
+          "citation": "Serna-Gallegos D et al. Female Pelvic Fistulae. Obstet Gynecol Clin North Am 2021 (PMID: 34416937)",
+          "label": null,
+          "pmid": "34416937",
+          "pubmed": {
+            "title": "Female Pelvic Fistulae",
+            "journal": "Obstet Gynecol Clin North Am",
+            "year": 2021,
+            "firstAuthor": "Serna-Gallegos T",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Snyder C et al. Management of Rectovaginal Fistulae. Surg Clin North Am 2026 (PMID: 41241454)",
+          "label": null,
+          "pmid": "41241454",
+          "pubmed": {
+            "title": "Management of Rectovaginal Fistulae",
+            "journal": "Surg Clin North Am",
+            "year": 2026,
+            "firstAuthor": "Snyder MJ",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "block": 2,
+      "kind": "professional",
+      "title": "Sexual Function & Pelvic Floor Disorders",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": "Pelvic Floor Anatomy & Physiology",
+      "gtl": [
+        "anatomy"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Sexual Function (GTL Anatomy 2c)",
+          "objectives": [
+            "Normal physiologic response to sexual stimulation before and after menopause",
+            "Influence of gonadal steroids on sexual function",
+            "Impact of UI, POP, and anal incontinence on sexual function"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 10: Female sexual function and dysfunction: Assessment and treatment",
+      "waltersChapters": [
+        10
+      ],
+      "primary": [
+        {
+          "citation": "Rogers RG et al. IUGA/ICS joint report on the terminology for the assessment of sexual health of women with pelvic floor disorders. Int Urogynecol J 2018 (PMID: 29577166)",
+          "label": null,
+          "pmid": "29577166",
+          "pubmed": {
+            "title": "An international Urogynecological association (IUGA)/international continence society (ICS) joint report on the terminology for the assessment of sexual health of women with pelvic floor dysfunction",
+            "journal": "Int Urogynecol J",
+            "year": 2018,
+            "firstAuthor": "Rogers RG",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 23,
+      "block": 2,
+      "kind": "clinical",
+      "title": "Vulvar Dermatoses & GSM",
+      "urpCodes": "URP6.2.A",
+      "urpDomains": [
+        "URP6"
+      ],
+      "gtlLabel": "GSM & Other Vulvar Conditions",
+      "gtl": [
+        "gsm"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "General (GTL GSM 2a-f)",
+          "objectives": [
+            "Definitions; relationship to UI, UTI, PFD",
+            "Common symptoms: vulvovaginal atrophy, lichen sclerosus, lichen planus",
+            "Pathophysiology of GSM and vulvar conditions; team-based care"
+          ]
+        },
+        {
+          "heading": "Evaluation (GTL GSM 3a-b)",
+          "objectives": [
+            "Directed history; focused exam; vulvar/vaginal biopsy"
+          ]
+        },
+        {
+          "heading": "Treatment (GTL GSM 4a-d)",
+          "objectives": [
+            "Non-hormonal: lubricants, moisturizers",
+            "Hormonal: vaginal estrogen (cream, tablets, ring, suppository), DHEA, ospemifene",
+            "Steroid treatments for VC: topical low/high potency, intralesional, systemic"
+          ]
+        }
+      ],
+      "reading": "NAMS/ISSWSH Guidelines on Genitourinary Syndrome of Menopause (GSM); Walters Ch. 36: Lower Urinary Tract Infection (GSM discussion)",
+      "waltersChapters": [
+        36
+      ],
+      "primary": [
+        {
+          "citation": "Kaufman JS et al. The AUA/SUFU/AUGS Guideline on Genitourinary Syndrome of Menopause. J Urol 2025 (PMID: 40298120)",
+          "label": null,
+          "pmid": "40298120",
+          "pubmed": {
+            "title": "The AUA/SUFU/AUGS Guideline on Genitourinary Syndrome of Menopause",
+            "journal": "J Urol",
+            "year": 2025,
+            "firstAuthor": "Kaufman MR",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 24,
+      "block": 2,
+      "kind": "clinical",
+      "title": "Urethral Diverticula & Periurethral Masses",
+      "urpCodes": "URP3.1.A-B, URP3.2.A-B, URP3.3.A-D",
+      "urpDomains": [
+        "URP3"
+      ],
+      "gtlLabel": "UG Fistulas & Urethral Diverticula",
+      "gtl": [
+        "ugf-ud"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Anatomy (GTL UF&UD; 1d-g)",
+          "objectives": [
+            "Embryologic origin of vaginal masses; Gartner's duct cysts; UD pathophysiology"
+          ]
+        },
+        {
+          "heading": "Evaluation (GTL UF&UD; 2c-d, 3a-b)",
+          "objectives": [
+            "Epidemiology/risk factors for UD; complex UD (malignancy, calculi)",
+            "Diagnostic testing: US, CT, MRI, VCUG"
+          ]
+        },
+        {
+          "heading": "Surgical (GTL UF&UD; 5a-k)",
+          "objectives": [
+            "Urethral diverticulectomy, Spence procedure, excision of vaginal mass",
+            "SUI management with UD (concomitant vs staged); postop drainage; UD in pregnancy"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 37: Urethral diverticula",
+      "waltersChapters": [
+        37
+      ],
+      "primary": [
+        {
+          "citation": "Daniels S et al. Rethinking Urethral Diverticulum: A Narrative Review of Clinical Outcomes and Cancer Associations. Int Urogynecol J 2025 (PMID: 40810904)",
+          "label": null,
+          "pmid": "40810904",
+          "pubmed": {
+            "title": "Rethinking Urethral Diverticulum: A Narrative Review of Clinical Outcomes and Cancer Associations",
+            "journal": "Int Urogynecol J",
+            "year": 2025,
+            "firstAuthor": "Daniels C",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Serrell EC et al. Urethral Masses. Obstet Gynecol Clin North Am 2021 (PMID: 34416940)",
+          "label": null,
+          "pmid": "34416940",
+          "pubmed": {
+            "title": "Urethral Masses",
+            "journal": "Obstet Gynecol Clin North Am",
+            "year": 2021,
+            "firstAuthor": "Serrell EC",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "block": 2,
+      "kind": "clinical",
+      "title": "Vesicovaginal Fistula Repair",
+      "urpCodes": "URP8.2.A-G",
+      "urpDomains": [
+        "URP8"
+      ],
+      "gtlLabel": "UG Fistulas & Urethral Diverticula",
+      "gtl": [
+        "ugf-ud"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "General (GTL UF&UD; 1g, 2b)",
+          "objectives": [
+            "Pathophysiology of UF formation; epidemiology/risk factors for VVF"
+          ]
+        },
+        {
+          "heading": "Evaluation (GTL UF&UD; 3a-b)",
+          "objectives": [
+            "Tampon testing; cystourethroscopy; imaging (US, CT, MRI, retrograde pyelogram, fistulogram, VCUG)"
+          ]
+        },
+        {
+          "heading": "Non-Surgical (GTL UF&UD; 4b)",
+          "objectives": [
+            "Continuous urinary drainage and ureteral stenting"
+          ]
+        },
+        {
+          "heading": "Surgical (GTL UF&UD; 5b-h)",
+          "objectives": [
+            "Vaginal approach: Latzko vs classic; MIS and open approaches",
+            "Principles of repair; flaps: Martius, gracilis, gluteal, Singapore, peritoneal/omental"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 38: Lower urinary tract fistulas",
+      "waltersChapters": [
+        38
+      ],
+      "primary": [
+        {
+          "citation": "Thompson JC et al. Repair of Vesicovaginal Fistulae: A Systematic Review. Obstet Gynecol 2024 (PMID: 38033311)",
+          "label": null,
+          "pmid": "38033311",
+          "pubmed": {
+            "title": "Repair of Vesicovaginal Fistulae: A Systematic Review",
+            "journal": "Obstet Gynecol",
+            "year": 2024,
+            "firstAuthor": "Thompson JC",
+            "pmcid": "PMC11975400"
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Wei C et al. Contemporary genitourinary fistula management: treatment, trends, and innovations. Curr Opin Obstet Gynecol 2025 (PMID: 40891591)",
+          "label": null,
+          "pmid": "40891591",
+          "pubmed": {
+            "title": "Contemporary genitourinary fistula management: treatment, trends, and innovations",
+            "journal": "Curr Opin Obstet Gynecol",
+            "year": 2025,
+            "firstAuthor": "Wei N",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "block": 2,
+      "kind": "clinical",
+      "title": "Ureterovaginal Fistula & Ureteral Injury",
+      "urpCodes": "URP8.3.A-C",
+      "urpDomains": [
+        "URP8"
+      ],
+      "gtlLabel": "UG Fistulas & UD; Peri-Op Mgmt",
+      "gtl": [
+        "ugf-ud",
+        "periop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Fistula (GTL UF&UD; 2b-iii)",
+          "objectives": [
+            "Epidemiology/risk factors for ureterovaginal fistula; MIS and open repair options"
+          ]
+        },
+        {
+          "heading": "Intraoperative (GTL Periop 2a-viii)",
+          "objectives": [
+            "Recognize and manage ureteral injury; retrograde pyelogram and stenting",
+            "Ureteroneocystotomy, ureteroureterostomy, Boari flap, Psoas hitch, percutaneous nephrostomy"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 24: Avoiding and managing lower urinary tract injuries during pelvic surgery",
+      "waltersChapters": [
+        24
+      ],
+      "primary": [
+        {
+          "citation": "Ade-Ojo IP et al. A Review on the Etiology, Prevention, and Management of Ureteral Injuries During Obstetric and Gynecologic Surgeries. Int J Womens Health 2021 (PMID: 34621135)",
+          "label": null,
+          "pmid": "34621135",
+          "pubmed": {
+            "title": "A Review on the Etiology, Prevention, and Management of Ureteral Injuries During Obstetric and Gynecologic Surgeries",
+            "journal": "Int J Womens Health",
+            "year": 2021,
+            "firstAuthor": "Ade-Ojo IP",
+            "pmcid": "PMC8491787"
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Burks FN et al. Management of iatrogenic ureteral injury. Ther Adv Urol 2014 (PMID: 24883109)",
+          "label": null,
+          "pmid": "24883109",
+          "pubmed": {
+            "title": "Management of iatrogenic ureteral injury",
+            "journal": "Ther Adv Urol",
+            "year": 2014,
+            "firstAuthor": "Burks FN",
+            "pmcid": "PMC4003841"
+          }
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "block": 2,
+      "kind": "clinical",
+      "title": "UTI: Recurrent & Complicated Infections",
+      "urpCodes": "URP6.1.A-E, URP6.2.B",
+      "urpDomains": [
+        "URP6"
+      ],
+      "gtlLabel": "UTI & Hematuria",
+      "gtl": [
+        "uti"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "General Knowledge (GTL UTI 2a-f)",
+          "objectives": [
+            "Definitions; typical/atypical symptoms; criteria for recurrent, persistent, complicated UTI, ASB",
+            "Epidemiology/risk factors: retention, GSM, sexual activity, glucosuria, catheterization, immunocompromise"
+          ]
+        },
+        {
+          "heading": "Evaluation (GTL UTI 3a-b)",
+          "objectives": [
+            "Directed history; focused exam; urine dipstick, UA, culture; methods of urine collection"
+          ]
+        },
+        {
+          "heading": "Treatment (GTL UTI 5a-f)",
+          "objectives": [
+            "Antibiotics: first line, second line, complicated UTI, pyelonephritis; renal dosing",
+            "Non-antibiotic prophylaxis: vaginal estrogen, probiotics, methenamine + vit C, D-mannose, cranberry",
+            "Antibiotic prophylaxis: scheduled, post-coital; treatment in pregnancy"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 36: Lower urinary tract infection",
+      "waltersChapters": [
+        36
+      ],
+      "primary": [
+        {
+          "citation": "Anger JT et al. J Urol 2019;202:282-289 (PMID: 31042112)",
+          "label": null,
+          "pmid": "31042112",
+          "pubmed": {
+            "title": "Recurrent Uncomplicated Urinary Tract Infections in Women: AUA/CUA/SUFU Guideline",
+            "journal": "J Urol",
+            "year": 2019,
+            "firstAuthor": "Anger J",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Brubaker L et al. FPMRS 2018;24(5):321-335 (PMID: 29369839)",
+          "label": null,
+          "pmid": "29369839",
+          "pubmed": {
+            "title": "American Urogynecologic Society Best-Practice Statement: Recurrent Urinary Tract Infection in Adult Women",
+            "journal": "Female Pelvic Med Reconstr Surg",
+            "year": 2018,
+            "firstAuthor": "Brubaker L",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "block": 2,
+      "kind": "clinical",
+      "title": "Hematuria Evaluation",
+      "urpCodes": "URP6.1.E",
+      "urpDomains": [
+        "URP6"
+      ],
+      "gtlLabel": "UTI & Hematuria",
+      "gtl": [
+        "uti"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Hematuria (GTL UTI 2d-e, 2g-h, 6a-b)",
+          "objectives": [
+            "Criteria for microscopic hematuria; practice guidelines comparison",
+            "Role of urine cytology; imaging: cystourethroscopy, US, CT, MRI",
+            "Risk stratification for malignancy; timing of repeat evaluation"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 40: Urology for the urogynecologist",
+      "waltersChapters": [
+        40
+      ],
+      "primary": [
+        {
+          "citation": "Barocas DA et al. J Urol 2020;204:778-786 (PMID: 32698717)",
+          "label": null,
+          "pmid": "32698717",
+          "pubmed": {
+            "title": "Microhematuria: AUA/SUFU Guideline",
+            "journal": "J Urol",
+            "year": 2020,
+            "firstAuthor": "Barocas DA",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Asymptomatic Microscopic Hematuria in Women. Female Pelvic Med Reconstr Surg 2017 (PMID: 28650895)",
+          "label": null,
+          "pmid": "28650895",
+          "pubmed": {
+            "title": "Asymptomatic Microscopic Hematuria in Women",
+            "journal": "Female Pelvic Med Reconstr Surg",
+            "year": 2017,
+            "firstAuthor": null,
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "block": 2,
+      "kind": "professional",
+      "title": "Evidence-Based Practice & Literature Appraisal",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": "Scholarly Activity; QI Science",
+      "gtl": [
+        "scholarly"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Statistics (GTL Scholarly Activity 2-7)",
+          "objectives": [
+            "Appropriate statistical methods; interpret confidence intervals; research limitations"
+          ]
+        },
+        {
+          "heading": "QI Frameworks (GTL QI 2a-d)",
+          "objectives": [
+            "PDSA, Six Sigma, Lean, Model for Improvement"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 41: Outcomes and quality-of-life measures in pelvic floor research",
+      "waltersChapters": [
+        41
+      ],
+      "primary": [
+        {
+          "citation": "Sackett DL et al. Evidence based medicine: what it is and what it isn't. BMJ 1996 (PMID: 8555924)",
+          "label": null,
+          "pmid": "8555924",
+          "pubmed": {
+            "title": "Evidence based medicine: what it is and what it isn't",
+            "journal": "BMJ",
+            "year": 1996,
+            "firstAuthor": "Sackett DL",
+            "pmcid": "PMC2349778"
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Altman DG et al. Stat Med 2012;31(25):2985-97 (PMID: 22903776)",
+          "label": null,
+          "pmid": "22903776",
+          "pubmed": {
+            "title": "Improving the reporting of randomised trials: the CONSORT Statement and beyond",
+            "journal": "Stat Med",
+            "year": 2012,
+            "firstAuthor": "Altman DG",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "block": 2,
+      "kind": "mock",
+      "title": "Mock Oral Boards - Session 2",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": null,
+      "gtl": [
+        "anatomy",
+        "fi-dd",
+        "rvf",
+        "ugf-ud",
+        "gsm",
+        "uti",
+        "periop",
+        "scholarly"
+      ],
+      "description": "Longitudinal assessment: comprehensive case-based oral examination covering all Year 1 Block 2 GTL sections",
+      "objectiveGroups": [],
+      "reading": "Review all Block 2 topics",
+      "waltersChapters": [],
+      "primary": [
+        {
+          "citation": "AUGS/AUA Board Review Materials",
+          "label": null,
+          "pmid": null
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 31,
+      "block": 3,
+      "kind": "clinical",
+      "title": "Neurogenic LUTD: Pathophysiology & Evaluation",
+      "urpCodes": "URP5.1.A-E, URP5.2.A-F",
+      "urpDomains": [
+        "URP5"
+      ],
+      "gtlLabel": "Neuro-Urology & Neurogenic LUTD",
+      "gtl": [
+        "neuro"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Anatomy & Physiology (GTL Neuro 1a-f)",
+          "objectives": [
+            "Normal LUT function; CNS/PNS/somatic neural pathways; reflex pathways",
+            "Key neurotransmitters; impact of neurologic diseases on storage/micturition",
+            "Pathophysiology of autonomic dysreflexia"
+          ]
+        },
+        {
+          "heading": "General (GTL Neuro 2a-e)",
+          "objectives": [
+            "Upper tract risk from neurogenic LUTD",
+            "Natural progression: MS, Parkinsonism, dementia, CVA, SCI, TBI, diabetic neuropathy, NPH",
+            "CNS lesion levels (brain, suprasacral, sacral); cauda equina recognition"
+          ]
+        },
+        {
+          "heading": "Evaluation (GTL Neuro 3a-b)",
+          "objectives": [
+            "Focused exam; multichannel UDS, uroflowmetry, EMG",
+            "Autonomic dysreflexia management during testing; UDS findings predictive of upper tract risk",
+            "Upper tract monitoring: renal US, CT, labs"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 33: Neurourology and compliance abnormalities",
+      "waltersChapters": [
+        33
+      ],
+      "primary": [
+        {
+          "citation": "Ginsberg DA et al. J Urol 2021;206:1097-1105 (PMID: 34495687)",
+          "label": null,
+          "pmid": "34495687",
+          "pubmed": {
+            "title": "The AUA/SUFU Guideline on Adult Neurogenic Lower Urinary Tract Dysfunction: Diagnosis and Evaluation",
+            "journal": "J Urol",
+            "year": 2021,
+            "firstAuthor": "Ginsberg DA",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Panicker JN et al. Lancet Neurol 2015;14:720-32 (PMID: 26067125)",
+          "label": null,
+          "pmid": "26067125",
+          "pubmed": {
+            "title": "Lower urinary tract dysfunction in the neurological patient: clinical assessment and management",
+            "journal": "Lancet Neurol",
+            "year": 2015,
+            "firstAuthor": "Panicker JN",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "block": 3,
+      "kind": "clinical",
+      "title": "Urinary Retention & Voiding Dysfunction",
+      "urpCodes": "URP5.3.A-C",
+      "urpDomains": [
+        "URP5"
+      ],
+      "gtlLabel": "Neuro-Urology & Neurogenic LUTD",
+      "gtl": [
+        "neuro"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Treatment (GTL Neuro 4a-e)",
+          "objectives": [
+            "Therapeutic options for neurogenic LUTD (disease vs injury)",
+            "Bladder drainage: urethral catheter, suprapubic, CIC",
+            "Neuromodulation: PTNS, SNM",
+            "Urinary diversion: indications, contraindications, complications, long-term outcomes"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 34: Voiding dysfunction in women",
+      "waltersChapters": [
+        34
+      ],
+      "primary": [
+        {
+          "citation": "Hartigan SM et al. Detrusor underactivity in women: A current understanding. Neurourol Urodyn 2019 (PMID: 31432566)",
+          "label": null,
+          "pmid": "31432566",
+          "pubmed": {
+            "title": "Detrusor underactivity in women: A current understanding",
+            "journal": "Neurourol Urodyn",
+            "year": 2019,
+            "firstAuthor": "Hartigan SM",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 33,
+      "block": 3,
+      "kind": "professional",
+      "title": "PROs & Questionnaire Validation in Urogynecology",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": "UI & LUTS; POP; FI & DD (shared framework)",
+      "gtl": [
+        "ui-luts",
+        "pop",
+        "fi-dd"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "QOL Assessment (GTL UI&LUTS; 3c; POP 3c; FI&DD 3c)",
+          "objectives": [
+            "Ad hoc vs validated generic vs validated condition-specific tools",
+            "Reliability/validity: test-retest, Cronbach alpha, construct/criterion validity, responsiveness, MID",
+            "Condition-specific severity, bother, and QOL questionnaires",
+            "Impact on QOL, psychosocial and sexual function"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 41: Outcomes and quality-of-life measures in pelvic floor research",
+      "waltersChapters": [
+        41
+      ],
+      "primary": [
+        {
+          "citation": "Barber MD, Walters MD, Bump RC et al. Short forms of two condition-specific quality-of-life questionnaires for women with pelvic floor disorders (PFDI-20 and PFIQ-7). Am J Obstet Gynecol 2005 (PMID: 16021067)",
+          "label": null,
+          "pmid": "16021067",
+          "pubmed": {
+            "title": "Short forms of two condition-specific quality-of-life questionnaires for women with pelvic floor disorders (PFDI-20 and PFIQ-7)",
+            "journal": "Am J Obstet Gynecol",
+            "year": 2005,
+            "firstAuthor": "Barber MD",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 34,
+      "block": 3,
+      "kind": "clinical",
+      "title": "Bladder Pain Syndrome/IC: Evaluation",
+      "urpCodes": "URP7.1.A-B, URP7.2.A-C",
+      "urpDomains": [
+        "URP7"
+      ],
+      "gtlLabel": "PBS & Pelvic Floor Dysfunction",
+      "gtl": [
+        "pbs"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Pathophysiology (GTL PBS 1d-f)",
+          "objectives": [
+            "Chronic pain pathophysiology; proposed PBS theories; pudendal neuralgia"
+          ]
+        },
+        {
+          "heading": "General (GTL PBS 2a-b)",
+          "objectives": [
+            "Definitions; team-based care approach"
+          ]
+        },
+        {
+          "heading": "Evaluation (GTL PBS 3a-b)",
+          "objectives": [
+            "Directed history; screen chronic pain disorders; impact of diet/fluid on PBS",
+            "Abdominal exam: suprapubic tenderness, trigger points",
+            "Pelvic floor exam: bladder/urethral tenderness, PVR, muscle tone/spasm, trigger points",
+            "Diagnostic: urinary/symptom diaries, UA, cystourethroscopy, hydrodistension"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 35: Interstitial cystitis/bladder pain syndrome",
+      "waltersChapters": [
+        35
+      ],
+      "primary": [
+        {
+          "citation": "Clemens JQ et al. AUA/SUFU Guideline on Interstitial Cystitis/Bladder Pain Syndrome. J Urol 2022;208(1):34-42 (PMID: 35536143)",
+          "label": null,
+          "pmid": "35536143",
+          "pubmed": {
+            "title": "Diagnosis and Treatment of Interstitial Cystitis/Bladder Pain Syndrome",
+            "journal": "J Urol",
+            "year": 2022,
+            "firstAuthor": "Clemens JQ",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 35,
+      "block": 3,
+      "kind": "clinical",
+      "title": "Bladder Pain Syndrome/IC: Treatment",
+      "urpCodes": "URP7.3.A-H",
+      "urpDomains": [
+        "URP7"
+      ],
+      "gtlLabel": "PBS & Pelvic Floor Dysfunction",
+      "gtl": [
+        "pbs"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Non-Surgical (GTL PBS 4a-e)",
+          "objectives": [
+            "General/behavioral: education, stress management, pain management, PBS diet, multidisciplinary",
+            "PFPT: strengthening, relaxation, trigger points (pelvic floor and abdominal wall)",
+            "Pharmacologic for PBS: analgesics, pregabalin/gabapentin, amitriptyline, H2 blockers, antihistamines, PPS, cyclosporine A"
+          ]
+        },
+        {
+          "heading": "Surgical for PBS (GTL PBS 5a-d)",
+          "objectives": [
+            "Bladder instillations (local anesthetic, GAGs, bicarbonate, steroids, DMSO)",
+            "Cystoscopy with hydrodistension; fulguration of Hunner lesions",
+            "SNM; bladder augmentation; cystectomy and urinary diversion"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 35: Interstitial cystitis/bladder pain syndrome",
+      "waltersChapters": [
+        35
+      ],
+      "primary": [
+        {
+          "citation": "Clemens JQ et al. J Urol 2022;208(1):34-42 (PMID: 35536143)",
+          "label": null,
+          "pmid": "35536143",
+          "pubmed": {
+            "title": "Diagnosis and Treatment of Interstitial Cystitis/Bladder Pain Syndrome",
+            "journal": "J Urol",
+            "year": 2022,
+            "firstAuthor": "Clemens JQ",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Pearce WA et al. Ophthalmology 2018;125(11):1793-1802 (PMID: 29801663)",
+          "label": null,
+          "pmid": "29801663",
+          "pubmed": {
+            "title": "Pigmentary Maculopathy Associated with Chronic Exposure to Pentosan Polysulfate Sodium",
+            "journal": "Ophthalmology",
+            "year": 2018,
+            "firstAuthor": "Pearce WA",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "block": 3,
+      "kind": "professional",
+      "title": "Gender-Affirming Care: Hormone Therapy",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": "Program enrichment (GTL Foreword)",
+      "gtl": [
+        "enrichment"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Program Enrichment",
+          "objectives": [
+            "GTL Foreword: \"not intended to be limiting for programs to offer more in-depth training in areas such as transgender medicine\"",
+            "URPS Blueprint URP9.3.A: common pelvic floor/urogenital symptoms with gender-affirming care",
+            "Hormonal management; impact on pelvic floor function"
+          ]
+        }
+      ],
+      "reading": "Endocrine Society Guidelines",
+      "waltersChapters": [],
+      "primary": [
+        {
+          "citation": "T'Sjoen G et al. Endocr Rev 2019;40:97-117 (PMID: 30307546)",
+          "label": null,
+          "pmid": "30307546",
+          "pubmed": {
+            "title": "Endocrinology of Transgender Medicine",
+            "journal": "Endocr Rev",
+            "year": 2019,
+            "firstAuthor": "T'Sjoen G",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 37,
+      "block": 3,
+      "kind": "professional",
+      "title": "Gender-Affirming Care: Surgical Approaches",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": "Program enrichment (GTL Foreword)",
+      "gtl": [
+        "enrichment"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Program Enrichment",
+          "objectives": [
+            "URPS Blueprint URP9.3.A; minimum procedure expectations include gender-affirming surgeries",
+            "Surgical approaches; urologic and gynecologic considerations"
+          ]
+        }
+      ],
+      "reading": "WPATH Standards of Care",
+      "waltersChapters": [],
+      "primary": [
+        {
+          "citation": "Lee WG et al. Gender Affirmation Surgery, Transmasculine. Urol Clin North Am 2022 (PMID: 35931436)",
+          "label": null,
+          "pmid": "35931436",
+          "pubmed": {
+            "title": "Gender Affirmation Surgery, Transmasculine",
+            "journal": "Urol Clin North Am",
+            "year": 2022,
+            "firstAuthor": "Lee WG",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Ortengren AR et al. Urethral outcomes in metoidioplasty and phalloplasty gender affirming surgery (MaPGAS) and vaginectomy: a systematic review. Transl Androl Urol 2022 (PMID: 36632157)",
+          "label": null,
+          "pmid": "36632157",
+          "pubmed": {
+            "title": "Urethral outcomes in metoidioplasty and phalloplasty gender affirming surgery (MaPGAS) and vaginectomy: a systematic review",
+            "journal": "Transl Androl Urol",
+            "year": 2022,
+            "firstAuthor": "Ortengren CD",
+            "pmcid": "PMC9827403"
+          }
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "block": 3,
+      "kind": "clinical",
+      "title": "Myofascial Pelvic Pain",
+      "urpCodes": "URP7.1.B, URP7.2.A",
+      "urpDomains": [
+        "URP7"
+      ],
+      "gtlLabel": "PBS & Pelvic Floor Dysfunction",
+      "gtl": [
+        "pbs"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Pharmacologic for PFD (GTL PBS 4d)",
+          "objectives": [
+            "Analgesics, neuropathic pain agents, anti-depressants (TCAs, SNRIs)",
+            "Skeletal muscle relaxants, vaginal benzodiazepine, vaginal estrogen"
+          ]
+        },
+        {
+          "heading": "Surgical for PFD (GTL PBS 6a-b)",
+          "objectives": [
+            "Trigger point management: manual pressure, dry needle, local anesthetic, steroid injections",
+            "Pudendal nerve block; botulinum toxin injection of pelvic floor; CT-guided pudendal block"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 4: Physiology of the pelvic muscles, vagina, and anorectum",
+      "waltersChapters": [
+        4
+      ],
+      "primary": [
+        {
+          "citation": "Abreu-Mendes P et al. Myofascial Pelvic Pain: Best Orientation and Clinical Practice. Position of the EAU Guidelines Panel on Chronic Pelvic Pain. Eur Urol Focus 2023 (PMID: 35945131)",
+          "label": null,
+          "pmid": "35945131",
+          "pubmed": {
+            "title": "Myofascial Pelvic Pain: Best Orientation and Clinical Practice. Position of the European Association of Urology Guidelines Panel on Chronic Pelvic Pain",
+            "journal": "Eur Urol Focus",
+            "year": 2023,
+            "firstAuthor": "Abreu-Mendes P",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 39,
+      "block": 3,
+      "kind": "clinical",
+      "title": "Intraoperative Bladder & Urethral Injury",
+      "urpCodes": "URP8.1.A-F, URP8.2.A-B",
+      "urpDomains": [
+        "URP8"
+      ],
+      "gtlLabel": "General Peri-Operative Management",
+      "gtl": [
+        "periop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Urinary Tract Injury (GTL Periop 2a-viii)",
+          "objectives": [
+            "Cystoscopy with urine coloring agents; bladder survey for injury/foreign body",
+            "Urethral injury identification and repair; cystotomy repair",
+            "Retrograde pyelogram; ureteral catheterization/stenting",
+            "Ureteroneocystotomy, ureteroureterostomy, Boari flap, Psoas hitch, percutaneous nephrostomy",
+            "Postoperative bladder drainage; recognize need for consultation"
+          ]
+        },
+        {
+          "heading": "Bowel and Vascular (GTL Periop 2a-ix, x)",
+          "objectives": [
+            "Bowel injury recognition and management; vascular injury; massive transfusion protocol"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 24: Avoiding and managing lower urinary tract injuries during pelvic surgery",
+      "waltersChapters": [
+        24
+      ],
+      "primary": [
+        {
+          "citation": "Teeluckdharry B et al. Urinary Tract Injury at Benign Gynecologic Surgery and the Role of Cystoscopy: A Systematic Review and Meta-analysis. Obstet Gynecol 2015 (PMID: 26551173)",
+          "label": null,
+          "pmid": "26551173",
+          "pubmed": {
+            "title": "Urinary Tract Injury at Benign Gynecologic Surgery and the Role of Cystoscopy: A Systematic Review and Meta-analysis",
+            "journal": "Obstet Gynecol",
+            "year": 2015,
+            "firstAuthor": "Teeluckdharry B",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Gilmour DT et al. Rates of urinary tract injury from gynecologic surgery and the role of intraoperative cystoscopy. Obstet Gynecol 2006 (PMID: 16738165)",
+          "label": null,
+          "pmid": "16738165",
+          "pubmed": {
+            "title": "Rates of urinary tract injury from gynecologic surgery and the role of intraoperative cystoscopy",
+            "journal": "Obstet Gynecol",
+            "year": 2006,
+            "firstAuthor": "Gilmour DT",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "block": 3,
+      "kind": "professional",
+      "title": "Cystoscopy Skills & Lower Urinary Tract Evaluation",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": "UI & LUTS; Peri-Op Mgmt",
+      "gtl": [
+        "ui-luts",
+        "periop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Cystourethroscopy (GTL UI&LUTS; 3b-v; Periop 2a-viii)",
+          "objectives": [
+            "Perform and interpret cystourethroscopy",
+            "Bladder survey for injury/foreign body; confirm ureteral efflux"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 12: Endoscopic assessment of the lower urinary tract",
+      "waltersChapters": [
+        12
+      ],
+      "primary": [
+        {
+          "citation": "Cohen SA, Carberry CL, Smilen SW. AUGS Consensus Statement: Cystoscopy at the Time of Prolapse Repair. Female Pelvic Med Reconstr Surg 2018;24(4):258-259 (PMID: 29369837)",
+          "label": null,
+          "pmid": "29369837",
+          "pubmed": {
+            "title": "American Urogynecologic Society Consensus Statement: Cystoscopy at the Time of Prolapse Repair",
+            "journal": "Female Pelvic Med Reconstr Surg",
+            "year": 2018,
+            "firstAuthor": "Cohen SA",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 41,
+      "block": 3,
+      "kind": "clinical",
+      "title": "Mesh Complications: Evaluation & Management",
+      "urpCodes": "URP9.4.A-C",
+      "urpDomains": [
+        "URP9"
+      ],
+      "gtlLabel": "POP Treatment; UI & LUTS",
+      "gtl": [
+        "pop",
+        "ui-luts"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Mesh and Grafts (GTL POP 5c; UI&LUTS; 5h)",
+          "objectives": [
+            "Graft augmentation: indications, evidence, patient selection",
+            "Types: autograft, allograft, xenograft, meshes; characteristics: pore size, filament, flexibility, tensile strength",
+            "Complications and management in both POP and UI surgery"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 25: Managing mesh complications after surgeries for UI and POP",
+      "waltersChapters": [
+        25
+      ],
+      "primary": [
+        {
+          "citation": "Giusto LL et al. Urol Clin North Am 2019;46:31-40 (PMID: 30466700)",
+          "label": null,
+          "pmid": "30466700",
+          "pubmed": {
+            "title": "Management of the Exposed or Perforated Midurethral Sling",
+            "journal": "Urol Clin North Am",
+            "year": 2019,
+            "firstAuthor": "Giusto LL",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "Kobashi KC et al. Management of erosion of graft materials in pelvic floor reconstruction. ScientificWorldJournal 2009 (PMID: 19151896)",
+          "label": null,
+          "pmid": "19151896",
+          "pubmed": {
+            "title": "Management of erosion of graft materials in pelvic floor reconstruction",
+            "journal": "ScientificWorldJournal",
+            "year": 2009,
+            "firstAuthor": "Kobashi K",
+            "pmcid": "PMC5823151"
+          }
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "block": 3,
+      "kind": "clinical",
+      "title": "Post-Cancer Pelvic Floor Care",
+      "urpCodes": "URP9.2.A-C",
+      "urpDomains": [
+        "URP9"
+      ],
+      "gtlLabel": "Cross-content (all clinical sections)",
+      "gtl": [
+        "anatomy",
+        "ui-luts",
+        "pop",
+        "fi-dd",
+        "rvf",
+        "ugf-ud",
+        "gsm",
+        "uti",
+        "neuro",
+        "pbs",
+        "periop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Post-Cancer PFD",
+          "objectives": [
+            "Impact of cancer treatment on pelvic floor anatomy and function",
+            "Common post-cancer pelvic floor/urogenital symptoms",
+            "Vaginal stenosis, radiation cystitis evaluation and management",
+            "Vaginal atrophy treatments in setting of breast and gynecologic cancer"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 5-6: Pathophysiology and epidemiology of pelvic floor disorders",
+      "waltersChapters": [
+        5,
+        6
+      ],
+      "primary": [
+        {
+          "citation": "Kurtuluş D et al. Pelvic Floor Dysfunction Following Gynecologic Cancer Surgery and Adjuvant Therapy: Epidemiology, Mechanisms, and Management — A Systematic Review. Int Urogynecol J 2026 (PMID: 41579191)",
+          "label": null,
+          "pmid": "41579191",
+          "pubmed": {
+            "title": "Pelvic Floor Dysfunction Following Gynecologic Cancer Surgery and Adjuvant Therapy: Epidemiology, Mechanisms, and Management-A Systematic Review",
+            "journal": "Int Urogynecol J",
+            "year": 2026,
+            "firstAuthor": "Kurtuluş D",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 43,
+      "block": 3,
+      "kind": "clinical",
+      "title": "Congenital Anomalies of the Urogenital System",
+      "urpCodes": "URP9.1.A-B",
+      "urpDomains": [
+        "URP9"
+      ],
+      "gtlLabel": "Pelvic Floor Anatomy & Physiology",
+      "gtl": [
+        "anatomy"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Embryology (GTL Anatomy 1i-j)",
+          "objectives": [
+            "Normal embryologic development of genital and urinary tract",
+            "Common congenital abnormalities: Gartner's duct cyst, vaginal septum, uterine defects, ureteral defects, kidney defects, urachal anomalies, bladder exstrophy"
+          ]
+        },
+        {
+          "heading": "Function (GTL Anatomy 2d)",
+          "objectives": [
+            "Impact of congenital abnormalities on pelvic floor function"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 2: Embryology and congenital anomalies of the urinary tract, rectum, and female genital system",
+      "waltersChapters": [
+        2
+      ],
+      "primary": [
+        {
+          "citation": "Grimbizis GF et al. The ESHRE/ESGE consensus on the classification of female genital tract congenital anomalies. Hum Reprod 2013 (PMID: 23771171)",
+          "label": null,
+          "pmid": "23771171",
+          "pubmed": {
+            "title": "The ESHRE/ESGE consensus on the classification of female genital tract congenital anomalies",
+            "journal": "Hum Reprod",
+            "year": 2013,
+            "firstAuthor": "Grimbizis GF",
+            "pmcid": "PMC3712660"
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 44,
+      "block": 3,
+      "kind": "professional",
+      "title": "Quality Improvement & Patient Safety",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": "Scholarly Activity — QI Science",
+      "gtl": [
+        "scholarly"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "QI Design (GTL QI 1a-e)",
+          "objectives": [
+            "Identify systems issue; engage stakeholders; SMART aims; define measures; analyze outcomes"
+          ]
+        },
+        {
+          "heading": "QI Frameworks (GTL QI 2a-d)",
+          "objectives": [
+            "PDSA, Six Sigma, Lean, Model for Improvement"
+          ]
+        }
+      ],
+      "reading": "ACGME QI Curriculum; IHI Open School",
+      "waltersChapters": [],
+      "primary": [
+        {
+          "citation": "Coughlin K et al. Common Quality Improvement Methodologies Including the Model for Improvement, Lean, and Six Sigma. Clin Perinatol 2023 (PMID: 37201982)",
+          "label": null,
+          "pmid": "37201982",
+          "pubmed": {
+            "title": "Common Quality Improvement Methodologies Including the Model for Improvement, Lean, and Six Sigma",
+            "journal": "Clin Perinatol",
+            "year": 2023,
+            "firstAuthor": "Coughlin K",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 45,
+      "block": 3,
+      "kind": "mock",
+      "title": "Mock Oral Boards - Session 3",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": null,
+      "gtl": [
+        "anatomy",
+        "ui-luts",
+        "pop",
+        "fi-dd",
+        "rvf",
+        "ugf-ud",
+        "gsm",
+        "uti",
+        "neuro",
+        "pbs",
+        "periop",
+        "scholarly",
+        "enrichment"
+      ],
+      "description": "Longitudinal assessment: comprehensive case-based oral examination covering all Year 2 Block 3 GTL sections",
+      "objectiveGroups": [],
+      "reading": "Comprehensive case-based review",
+      "waltersChapters": [],
+      "primary": [
+        {
+          "citation": "AUGS/AUA Board Review Materials",
+          "label": null,
+          "pmid": null
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 46,
+      "block": 4,
+      "kind": "clinical",
+      "title": "SUI Review: Evaluation to Surgical Management",
+      "urpCodes": "URP4.3.A-G",
+      "urpDomains": [
+        "URP4"
+      ],
+      "gtlLabel": "UI & LUTS",
+      "gtl": [
+        "ui-luts"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Comprehensive Review (GTL UI&LUTS; 3a, 3b, 4a-e, 5a-h)",
+          "objectives": [
+            "Review: history/exam, diagnostic testing, non-surgical, surgical treatment",
+            "Comparative outcomes: retropubic vs transobturator MUS, fascial sling, bulking, Burch",
+            "Patient selection; mesh/graft use; complication management"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 14-18: Nonsurgical and surgical management of SUI",
+      "waltersChapters": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "primary": [
+        {
+          "citation": "Ford AA et al. Cochrane Database Syst Rev 2017;7:CD006375 (PMID: 28756647)",
+          "label": null,
+          "pmid": "28756647",
+          "pubmed": {
+            "title": "Mid-urethral sling operations for stress urinary incontinence in women",
+            "journal": "Cochrane Database Syst Rev",
+            "year": 2017,
+            "firstAuthor": "Ford AA",
+            "pmcid": "PMC6483329"
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "SISTER Trial: Albo ME et al. N Engl J Med 2007;356(21):2143-55 (PMID: 17517855)",
+          "label": "SISTER Trial",
+          "pmid": "17517855",
+          "pubmed": {
+            "title": "Burch colposuspension versus fascial sling to reduce urinary stress incontinence",
+            "journal": "N Engl J Med",
+            "year": 2007,
+            "firstAuthor": "Albo ME",
+            "pmcid": null
+          }
+        },
+        {
+          "citation": "ESTEEM Trial: Sung VW et al. JAMA 2019;322(11):1066-1076 (PMID: 31529007)",
+          "label": "ESTEEM Trial",
+          "pmid": "31529007",
+          "pubmed": {
+            "title": "Effect of Behavioral and Pelvic Floor Muscle Therapy Combined With Surgery vs Surgery Alone on Incontinence Symptoms Among Women With Mixed Urinary Incontinence: The ESTEEM Randomized Clinical Trial",
+            "journal": "JAMA",
+            "year": 2019,
+            "firstAuthor": "Sung VW",
+            "pmcid": "PMC6749544"
+          }
+        },
+        {
+          "citation": "Kobashi KC et al. Updates to Surgical Treatment of Female Stress Urinary Incontinence (SUI): AUA/SUFU Guideline (2023). J Urol 2023 (PMID: 37096580)",
+          "label": null,
+          "pmid": "37096580",
+          "pubmed": {
+            "title": "Updates to Surgical Treatment of Female Stress Urinary Incontinence (SUI): AUA/SUFU Guideline (2023)",
+            "journal": "J Urol",
+            "year": 2023,
+            "firstAuthor": "Kobashi KC",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "block": 4,
+      "kind": "clinical",
+      "title": "OAB Review: Comprehensive Management",
+      "urpCodes": "URP4.4.A-J",
+      "urpDomains": [
+        "URP4"
+      ],
+      "gtlLabel": "UI & LUTS",
+      "gtl": [
+        "ui-luts"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Comprehensive Review (GTL UI&LUTS; 3a-c, 4a-e, 5a-e)",
+          "objectives": [
+            "Review: evaluation, pharmacologic agents, advanced therapies",
+            "Refractory OAB algorithm; Botox vs SNM comparative effectiveness"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 31-32: OAB syndrome and refractory OAB",
+      "waltersChapters": [
+        31,
+        32
+      ],
+      "primary": [
+        {
+          "citation": "Cameron AP et al. The AUA/SUFU Guideline on the Diagnosis and Treatment of Idiopathic Overactive Bladder. J Urol 2024 (PMID: 38651651)",
+          "label": null,
+          "pmid": "38651651",
+          "pubmed": {
+            "title": "The AUA/SUFU Guideline on the Diagnosis and Treatment of Idiopathic Overactive Bladder",
+            "journal": "J Urol",
+            "year": 2024,
+            "firstAuthor": "Cameron AP",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 48,
+      "block": 4,
+      "kind": "clinical",
+      "title": "POP Review: Surgical Approaches",
+      "urpCodes": "URP1.4.A-E, URP1.5.A-C, URP1.6.A-D",
+      "urpDomains": [
+        "URP1"
+      ],
+      "gtlLabel": "POP Treatment",
+      "gtl": [
+        "pop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Comprehensive Review (GTL POP 5a-d)",
+          "objectives": [
+            "All surgical procedures: vaginal, MIS, open",
+            "Comparative effectiveness: USLS vs SSLF, native tissue vs mesh-augmented",
+            "Graft augmentation review; prophylactic continence procedures"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 19-23: Surgical treatment of POP",
+      "waltersChapters": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "primary": [
+        {
+          "citation": "Nager CW et al. Effect of Vaginal Mesh Hysteropexy vs Vaginal Hysterectomy With Uterosacral Ligament Suspension on Treatment Failure in Women With Uterovaginal Prolapse. JAMA 2019 (PMID: 31529008)",
+          "label": null,
+          "pmid": "31529008",
+          "pubmed": {
+            "title": "Effect of Vaginal Mesh Hysteropexy vs Vaginal Hysterectomy With Uterosacral Ligament Suspension on Treatment Failure in Women With Uterovaginal Prolapse: A Randomized Clinical Trial",
+            "journal": "JAMA",
+            "year": 2019,
+            "firstAuthor": "Nager CW",
+            "pmcid": "PMC6749543"
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "OPTIMAL Trial: Barber MD et al. JAMA 2014;311(10):1023-34 (PMID: 24618964)",
+          "label": "OPTIMAL Trial",
+          "pmid": "24618964",
+          "pubmed": {
+            "title": "Comparison of 2 transvaginal surgical approaches and perioperative behavioral therapy for apical vaginal prolapse: the OPTIMAL randomized trial",
+            "journal": "JAMA",
+            "year": 2014,
+            "firstAuthor": "Barber MD",
+            "pmcid": "PMC4083455"
+          }
+        },
+        {
+          "citation": "OPUS Trial: Wei JT et al. N Engl J Med 2012;366(25):2358-67 (PMID: 22716974)",
+          "label": "OPUS Trial",
+          "pmid": "22716974",
+          "pubmed": {
+            "title": "A midurethral sling to reduce incontinence after vaginal prolapse repair",
+            "journal": "N Engl J Med",
+            "year": 2012,
+            "firstAuthor": "Wei JT",
+            "pmcid": "PMC3433843"
+          }
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "block": 4,
+      "kind": "professional",
+      "title": "Career Development & Academic Medicine",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": "Scholarly Activity — Dissemination",
+      "gtl": [
+        "scholarly"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Scientific Dissemination (GTL 1-3)",
+          "objectives": [
+            "Write publishable thesis: aims, significance, study population, design, bias, power, outcomes",
+            "Appropriate analysis; conclusions justified by findings"
+          ]
+        },
+        {
+          "heading": "ACGME Competencies",
+          "objectives": [
+            "Systems-based practice, practice-based learning, professionalism, communication"
+          ]
+        }
+      ],
+      "reading": "AUGS Mentorship Resources",
+      "waltersChapters": [],
+      "primary": [
+        {
+          "citation": "Straus SE et al. Characteristics of successful and failed mentoring relationships: a qualitative study across two academic health centers. Acad Med 2013 (PMID: 23165266)",
+          "label": null,
+          "pmid": "23165266",
+          "pubmed": {
+            "title": "Characteristics of successful and failed mentoring relationships: a qualitative study across two academic health centers",
+            "journal": "Acad Med",
+            "year": 2013,
+            "firstAuthor": "Straus SE",
+            "pmcid": "PMC3665769"
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 50,
+      "block": 4,
+      "kind": "clinical",
+      "title": "Anorectal Disorders Review",
+      "urpCodes": "URP2.1.A-C, URP2.2.A-B",
+      "urpDomains": [
+        "URP2"
+      ],
+      "gtlLabel": "FI & DD Treatment",
+      "gtl": [
+        "fi-dd"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Comprehensive Review (GTL FI&DD 1-5)",
+          "objectives": [
+            "Anatomy through surgical treatment",
+            "Sphincteroplasty, dynamic muscle transposition, artificial sphincter, bulking, SNM, colostomy",
+            "Integration with defecatory dysfunction and rectal prolapse"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 27-30: Fecal incontinence, constipation, RVF, rectal prolapse",
+      "waltersChapters": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "primary": [
+        {
+          "citation": "Bordeianou LG et al. The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Management of Fecal Incontinence. Dis Colon Rectum 2023 (PMID: 40324433)",
+          "label": null,
+          "pmid": "40324433",
+          "pubmed": {
+            "title": "The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Management of Fecal Incontinence",
+            "journal": "Dis Colon Rectum",
+            "year": 2023,
+            "firstAuthor": "Bordeianou LG",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "CAPABLe Trial: Jelovsek JE et al. Lancet Gastroenterol Hepatol 2019;4(9):698-710 (PMID: 31320277)",
+          "label": "CAPABLe Trial",
+          "pmid": "31320277",
+          "pubmed": {
+            "title": "Controlling faecal incontinence in women by performing anal exercises with biofeedback or loperamide: a randomised clinical trial",
+            "journal": "Lancet Gastroenterol Hepatol",
+            "year": 2019,
+            "firstAuthor": "Jelovsek JE",
+            "pmcid": "PMC6708078"
+          }
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "block": 4,
+      "kind": "clinical",
+      "title": "Perioperative Complications: Prevention & Management",
+      "urpCodes": "URP9.5.A-D",
+      "urpDomains": [
+        "URP9"
+      ],
+      "gtlLabel": "General Peri-Op Mgmt",
+      "gtl": [
+        "periop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Comprehensive Review (GTL Periop 2a-v through 2a-x)",
+          "objectives": [
+            "SSI prophylaxis, VTE prophylaxis, energy sources",
+            "Urinary tract, bowel, and vascular injury management",
+            "Massive transfusion protocol; damage control; consultative pathways"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 26: Complications of pelvic reconstructive surgery",
+      "waltersChapters": [
+        26
+      ],
+      "primary": [
+        {
+          "citation": "Lavikainen LI et al. Risk of thrombosis and bleeding in gynecologic noncancer surgery: a systematic review and meta-analysis. Am J Obstet Gynecol 2024 (PMID: 38072372)",
+          "label": null,
+          "pmid": "38072372",
+          "pubmed": {
+            "title": "Risk of thrombosis and bleeding in gynecologic noncancer surgery: systematic review and meta-analysis",
+            "journal": "Am J Obstet Gynecol",
+            "year": 2024,
+            "firstAuthor": "Lavikainen LI",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": [
+        {
+          "citation": "ACOG Practice Bulletin No. 232: VTE Prevention (PMID: 34259490)",
+          "label": null,
+          "pmid": "34259490",
+          "pubmed": {
+            "title": "Prevention of Venous Thromboembolism in Gynecologic Surgery: ACOG Practice Bulletin, Number 232",
+            "journal": "Obstet Gynecol",
+            "year": 2021,
+            "firstAuthor": "American College of Obstetricians and Gynecologists’ Committee on Practice Bulletins—Gynecology",
+            "pmcid": null
+          }
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "block": 4,
+      "kind": "clinical",
+      "title": "Urinary Tract Injury Review",
+      "urpCodes": "URP8.1.A-F",
+      "urpDomains": [
+        "URP8"
+      ],
+      "gtlLabel": "Peri-Op Mgmt; UG Fistulas",
+      "gtl": [
+        "periop",
+        "ugf-ud"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Comprehensive Review (GTL Periop 2a-viii; UF&UD)",
+          "objectives": [
+            "All intraoperative urinary tract injury management",
+            "Injury recognition, repair techniques, long-term follow-up"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 24, 38: Urinary tract injuries and fistulas",
+      "waltersChapters": [
+        24,
+        38
+      ],
+      "primary": [
+        {
+          "citation": "Glaser LM, Milad MP. Bowel and Bladder Injury Repair and Follow-up After Gynecologic Surgery. Obstet Gynecol 2019 (PMID: 30633149)",
+          "label": null,
+          "pmid": "30633149",
+          "pubmed": {
+            "title": "Bowel and Bladder Injury Repair and Follow-up After Gynecologic Surgery",
+            "journal": "Obstet Gynecol",
+            "year": 2019,
+            "firstAuthor": "Glaser LM",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 53,
+      "block": 4,
+      "kind": "professional",
+      "title": "Billing, Coding & Practice Management",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": "ACGME Common Program Requirements",
+      "gtl": [
+        "enrichment"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Professional Development",
+          "objectives": [
+            "Systems-based practice; coding, documentation, practice economics"
+          ]
+        }
+      ],
+      "reading": "AUGS Practice Management Resources",
+      "waltersChapters": [],
+      "primary": [
+        {
+          "citation": "AUGS Coding Guidelines 2023",
+          "label": null,
+          "pmid": null
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 54,
+      "block": 4,
+      "kind": "clinical",
+      "title": "BPS/IC & Pelvic Pain Review",
+      "urpCodes": "URP7.1.A-B, URP7.3.A-H",
+      "urpDomains": [
+        "URP7"
+      ],
+      "gtlLabel": "PBS & Pelvic Floor Dysfunction",
+      "gtl": [
+        "pbs"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Comprehensive Review (GTL PBS 1-6)",
+          "objectives": [
+            "Anatomy/pathophysiology through surgical treatment for PBS and PFD",
+            "Multimodal management; refractory cases; surgical options"
+          ]
+        }
+      ],
+      "reading": "Walters Ch. 35: Interstitial cystitis/bladder pain syndrome",
+      "waltersChapters": [
+        35
+      ],
+      "primary": [
+        {
+          "citation": "Tailor V et al. Understanding bladder pain syndrome/interstitial cystitis. Int Urogynecol J 2020 (PMID: 32095957)",
+          "label": null,
+          "pmid": "32095957",
+          "pubmed": {
+            "title": "Understanding bladder pain syndrome/interstitial cystitis",
+            "journal": "Int Urogynecol J",
+            "year": 2020,
+            "firstAuthor": "Tailor V",
+            "pmcid": null
+          }
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 55,
+      "block": 4,
+      "kind": "clinical",
+      "title": "Special Considerations Review",
+      "urpCodes": "URP9.4.A-C, URP9.5.A-D",
+      "urpDomains": [
+        "URP9"
+      ],
+      "gtlLabel": "POP Treatment; Peri-Op Mgmt",
+      "gtl": [
+        "pop",
+        "periop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": "Comprehensive Review",
+          "objectives": [
+            ""
+          ]
+        },
+        {
+          "heading": "Mesh/graft complications (GTL POP 5c)",
+          "objectives": [
+            ""
+          ]
+        },
+        {
+          "heading": "Congenital anomalies (GTL Anatomy 1i-j)",
+          "objectives": [
+            ""
+          ]
+        },
+        {
+          "heading": "Perioperative management (GTL Periop 1-2)",
+          "objectives": []
+        }
+      ],
+      "reading": "Walters Ch. 2, 7, 25-26: Congenital anomalies, mesh, and complications",
+      "waltersChapters": [
+        2,
+        7,
+        25,
+        26
+      ],
+      "primary": [
+        {
+          "citation": "ACOG/AUGS Practice Bulletins",
+          "label": null,
+          "pmid": null
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 56,
+      "block": 4,
+      "kind": "professional",
+      "title": "Board Review: UI/LUTS & POP",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": "UI & LUTS; POP Treatment",
+      "gtl": [
+        "ui-luts",
+        "pop"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": null,
+          "objectives": [
+            "Comprehensive review of all UI/LUTS and POP GTL learning objectives mapped to URPS Blueprint domains URP1 and URP4"
+          ]
+        }
+      ],
+      "reading": "Review Walters Ch. 8-9, 14-23, 31-32",
+      "waltersChapters": [
+        8,
+        9,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        31,
+        32
+      ],
+      "primary": [
+        {
+          "citation": "AUGS Board Review Course Materials",
+          "label": null,
+          "pmid": null
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 57,
+      "block": 4,
+      "kind": "professional",
+      "title": "Board Review: Anorectal, Fistulas, Pain & Special Topics",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": "FI & DD; RVF; UG Fistulas; PBS; UTI",
+      "gtl": [
+        "fi-dd",
+        "rvf",
+        "ugf-ud",
+        "pbs",
+        "uti"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": null,
+          "objectives": [
+            "Comprehensive review of remaining GTL sections mapped to URPS Blueprint domains URP2, URP3, URP5-9"
+          ]
+        }
+      ],
+      "reading": "Review Walters Ch. 27-30, 35-38",
+      "waltersChapters": [
+        27,
+        28,
+        29,
+        30,
+        35,
+        36,
+        37,
+        38
+      ],
+      "primary": [
+        {
+          "citation": "AUGS Board Review Course Materials",
+          "label": null,
+          "pmid": null
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 58,
+      "block": 4,
+      "kind": "professional",
+      "title": "Board Review: High-Yield Topics & Test Strategies",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": "All GTL Sections",
+      "gtl": [
+        "anatomy",
+        "ui-luts",
+        "pop",
+        "fi-dd",
+        "rvf",
+        "ugf-ud",
+        "gsm",
+        "uti",
+        "neuro",
+        "pbs",
+        "periop",
+        "scholarly"
+      ],
+      "description": null,
+      "objectiveGroups": [
+        {
+          "heading": null,
+          "objectives": [
+            "Blueprint-weighted review emphasizing high-yield URPS domains; test-taking strategies; integration across all GTL learning objectives"
+          ]
+        }
+      ],
+      "reading": "Blueprint-focused review",
+      "waltersChapters": [],
+      "primary": [
+        {
+          "citation": "ABOG Blueprint 2024",
+          "label": null,
+          "pmid": null
+        }
+      ],
+      "further": []
+    },
+    {
+      "number": 59,
+      "block": 4,
+      "kind": "mock",
+      "title": "Mock Oral Boards - Session 4 (Final)",
+      "urpCodes": null,
+      "urpDomains": [],
+      "gtlLabel": null,
+      "gtl": [
+        "anatomy",
+        "ui-luts",
+        "pop",
+        "fi-dd",
+        "rvf",
+        "ugf-ud",
+        "gsm",
+        "uti",
+        "neuro",
+        "pbs",
+        "periop",
+        "scholarly",
+        "enrichment"
+      ],
+      "description": "Comprehensive final oral examination covering all GTL domains and URPS Blueprint codes with emphasis on clinical decision-making, complication management, and evidence-based practice",
+      "objectiveGroups": [],
+      "reading": "Comprehensive final exam simulation",
+      "waltersChapters": [],
+      "primary": [
+        {
+          "citation": "AUGS/AUA Board Review Materials",
+          "label": null,
+          "pmid": null
+        }
+      ],
+      "further": []
+    }
+  ]
+}
