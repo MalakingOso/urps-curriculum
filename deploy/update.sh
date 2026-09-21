@@ -60,15 +60,19 @@ for _ in 1 2 3 4 5 6 7 8 9 10; do
 done
 systemctl is-active --quiet "$SERVICE" || die "$SERVICE failed to come back up"
 
+# The session count comes from the data, so adding a session never breaks this check.
+last="$(deno eval 'console.log(JSON.parse(Deno.readTextFileSync("data/curriculum.json")).sessions.length)')"
+[[ "$last" =~ ^[0-9]+$ ]] || die "could not read the session count from data/curriculum.json"
+
 # Home, the two index pages, the first and last session, and a vendored font
-for path in / /coverage /library /sessions/1 /sessions/59 \
+for path in / /coverage /library /sessions/1 "/sessions/$last" \
   /fonts/geist-latin-wght-normal.woff2; do
   curl -fsS -o /dev/null "http://localhost:$PORT$path" || die "GET $path failed"
 done
 
 # One past the last session must be a real 404, not a 200 or a 500.
-status="$(curl -sS -o /dev/null -w '%{http_code}' "http://localhost:$PORT/sessions/60")"
-[[ "$status" == "404" ]] || die "GET /sessions/60 returned $status, expected 404"
+status="$(curl -sS -o /dev/null -w '%{http_code}' "http://localhost:$PORT/sessions/$((last + 1))")"
+[[ "$status" == "404" ]] || die "GET /sessions/$((last + 1)) returned $status, expected 404"
 
 # Captured first: under pipefail, `curl | grep -q` fails when grep exits early.
 home="$(curl -fsS "http://localhost:$PORT/")"

@@ -158,8 +158,8 @@ them for real, don't assume:
       (104.x / 172.x), not the raw VPS IP (confirms proxying is active).
 - [ ] `curl -I https://education.xenoj.com` returns `200` with a
       `server: cloudflare` header.
-- [ ] `curl -I https://education.xenoj.com/sessions/59` returns `200`;
-      `/sessions/60` returns `404`.
+- [ ] `curl -I https://education.xenoj.com/sessions/60` (the last session) returns `200`;
+      `/sessions/61` returns `404`.
 - [ ] `curl -I https://urogyn.xenoj.com` and `curl -I https://xenoj.com`
       still return `200` (the Caddy change didn't break the neighbours).
 - [ ] From an outside network, `curl -m 10 -kI https://<VPS-IP> -H 'Host: education.xenoj.com'`
@@ -179,8 +179,8 @@ build and a restart. `urps-update` does all of it.
 
 It refuses to run if the VPS checkout has local changes, then does
 `git pull --ff-only`, builds, restarts the service, and checks `/`,
-`/coverage`, `/library`, `/sessions/1`, `/sessions/59`, a vendored font,
-that `/sessions/60` is a 404, and that the home page still says "URPS
+`/coverage`, `/library`, `/sessions/1`, the last session (the count is read from
+`data/curriculum.json`), a vendored font, that the page one past it is a 404, and that the home page still says "URPS
 Fellowship Didactic Curriculum".
 
 ## Updating curriculum content
