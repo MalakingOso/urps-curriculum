@@ -19,7 +19,7 @@ export default function App({ Component, url }: PageProps) {
         <title>URPS Fellowship Curriculum</title>
         <meta
           name="description"
-          content="The 59-session URPS fellowship didactic curriculum, mapped to the AUGS Guide to Learning, the URPS Qualifying Exam Blueprint, and Walters & Karam."
+          content="The 60-session URPS fellowship didactic curriculum, mapped to the AUGS Guide to Learning, the URPS Qualifying Exam Blueprint, and Walters & Karam."
         />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="preload" href="/fonts/newsreader-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous" />

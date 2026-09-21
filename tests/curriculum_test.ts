@@ -2,13 +2,13 @@ import { assert, assertEquals } from "@std/assert";
 import { blocks, chapterMap, gtlSections, libraryEntries, sessions, summary } from "../lib/curriculum.ts";
 
 Deno.test("session counts match the GTL mapping document", () => {
-  assertEquals(summary.sessions, 59);
-  assertEquals([summary.clinical, summary.professional, summary.mock], [41, 14, 4]);
-  assertEquals(sessions.map((s) => s.number), Array.from({ length: 59 }, (_, i) => i + 1));
+  assertEquals(summary.sessions, 60);
+  assertEquals([summary.clinical, summary.professional, summary.mock], [42, 14, 4]);
+  assertEquals(sessions.map((s) => s.number), Array.from({ length: 60 }, (_, i) => i + 1));
 });
 
 Deno.test("blocks cover sessions contiguously", () => {
-  assertEquals(blocks.map((b) => b.sessions), [[1, 16], [17, 30], [31, 45], [46, 59]]);
+  assertEquals(blocks.map((b) => b.sessions), [[1, 16], [17, 30], [31, 46], [47, 60]]);
   for (const s of sessions) {
     const b = blocks.find((x) => x.number === s.block)!;
     assert(s.number >= b.sessions[0] && s.number <= b.sessions[1], `session ${s.number} outside block ${b.number}`);

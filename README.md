@@ -1,11 +1,11 @@
 # URPS Fellowship Curriculum
 
 Source for [education.xenoj.com](https://education.xenoj.com): a browsable version of the fellowship's
-59-session, two-year didactic curriculum, mapped to the AUGS Guide to Learning (2024), the URPS Qualifying
+60-session, two-year didactic curriculum, mapped to the AUGS Guide to Learning (2024), the URPS Qualifying
 Exam Blueprint, and Walters & Karam, 5th edition.
 
 - **Journey** (`/`): the four blocks and their sessions, filterable by type and GTL section.
-- **Session pages** (`/sessions/1` … `/sessions/59`): learning objectives, textbook reading, and articles.
+- **Session pages** (`/sessions/1` … `/sessions/60`): learning objectives, textbook reading, and articles.
 - **Coverage** (`/coverage`): sessions × GTL sections, or × URPS Blueprint domains.
 - **Reading list** (`/library`): every assigned article once, with PubMed links, plus Walters chapter coverage.
 

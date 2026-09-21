@@ -47,7 +47,7 @@ export default function Coverage({ sessions, blocks, gtlSections, urpDomains, in
   const has = (s: SessionSummary, k: string) => (gtlLens ? s.gtl : s.urpDomains).includes(k);
   // Sessions touching (nearly) every column are drawn as one band so they don't swamp the grid.
   const band = (s: SessionSummary) => {
-    if (s.kind === "mock") return `Mock oral boards · ${s.number === 59 ? "all domains" : `reviews Block ${s.block}`}`;
+    if (s.kind === "mock") return `Mock oral boards · ${s.number === sessions.length ? "all domains" : `reviews Block ${s.block}`}`;
     if (gtlLens && s.gtl.length >= 11) return s.gtlLabel;
     if (!gtlLens && !s.urpDomains.length) return "No Blueprint code · professional development";
     return null;
