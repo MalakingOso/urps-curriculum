@@ -17,7 +17,7 @@ export default function SessionPage({ params }: PageProps) {
         <title>{`${pad(s.number)} · ${s.title} · URPS Fellowship Curriculum`}</title>
       </Head>
       <nav class="crumbs" aria-label="Breadcrumb">
-        <a href="/">Journey</a> <span aria-hidden="true">/</span> Block {b.number} · {b.name}
+        <a href="/">Curriculum</a> <span aria-hidden="true">/</span> Block {b.number} · {b.name}
       </nav>
       <header class="session-head">
         <p class="eyebrow">Session {pad(s.number)} · Year {b.year} · {KIND_LABEL[s.kind]}</p>

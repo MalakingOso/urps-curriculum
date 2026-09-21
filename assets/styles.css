@@ -145,15 +145,17 @@ button, select, input { font: inherit; color: inherit; }
 
 /* library */
 .walters { margin-top: 20px; }
-.walters h2 { font-size: 1.1rem; margin: 0 0 10px; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
-.walters h2 .muted { font-size: .85rem; }
+.walters h2, .articles h2 { font-size: 1.1rem; margin: 0 0 10px; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+.walters h2 .muted, .articles h2 .muted { font-size: .85rem; }
+.articles { margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--ink); }
+.walters { padding-top: 20px; border-top: 1px solid var(--ink); }
 .chapters { display: grid; grid-template-columns: repeat(auto-fill, minmax(34px, 1fr)); gap: 4px; }
 .ch { display: grid; place-items: center; height: 34px; border-radius: 6px; font-family: var(--font-mono); font-size: .78rem;
   color: var(--muted); border: 1px dashed var(--line); background: none; }
 .ch.on { border: 0; cursor: pointer; color: var(--on-accent);
   background: color-mix(in srgb, var(--accent) calc(40% + var(--n) * 15%), var(--bg)); }
 .ch.sel { outline: 2px solid var(--ink); outline-offset: 1px; }
-.walters .lead { margin: 0 0 12px; color: var(--muted); font-size: .92em; max-width: 62ch; }
+.walters .lead, .articles .lead { margin: 0 0 12px; color: var(--muted); font-size: .92em; max-width: 62ch; }
 .ch-legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 10px 0 0; font-size: .8rem; color: var(--muted); align-items: center; }
 .ch-key { display: inline-block; width: 14px; height: 14px; border-radius: 4px; vertical-align: -2px; margin-right: 5px;
   background: color-mix(in srgb, var(--accent) calc(40% + var(--n) * 15%), var(--bg)); }
@@ -244,7 +246,7 @@ footer.foot { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--l
 .pager a { border-radius: 0; border: 0; border-top: 1px solid var(--ink); }
 .pager a { font-family: var(--font-display); font-weight: 400; font-size: 1.1rem; }
 .heat-wrap { border-radius: 4px; }
-.walters h2, .other h2, .col-panel h2 { font-family: var(--font-display); font-weight: 500; font-size: 1.35rem; }
+.walters h2, .articles h2, .other h2, .col-panel h2 { font-family: var(--font-display); font-weight: 500; font-size: 1.35rem; }
 
 .row .dots { gap: 4px; max-width: 72px; }
 .row .dots i { width: 11px; height: 11px; box-shadow: 0 0 0 2px var(--bg), 0 0 0 2.5px color-mix(in srgb, var(--c) 40%, transparent); }

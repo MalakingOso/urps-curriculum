@@ -105,6 +105,14 @@ export default function Library({ entries, other, chapters, chapterTitles, gtlSe
         </div>
       </section>
 
+      <section class="articles">
+        <h2>
+          Articles to read <span class="muted">Peer-reviewed, linked to PubMed</span>
+        </h2>
+        <p class="lead">
+          The primary and further readings from every session. An article assigned in more than one session is
+          listed once, with each session that assigns it.
+        </p>
       <div class="filters">
         <label class="select">
           <span>Sort</span>
@@ -148,6 +156,7 @@ export default function Library({ entries, other, chapters, chapterTitles, gtlSe
           </ArticleItem>
         ))}
       </ul>
+      </section>
       <section class="other">
         <h2>Other resources</h2>
         <ul>

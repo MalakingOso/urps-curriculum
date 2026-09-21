@@ -2,7 +2,7 @@ import { currentQuery, query } from "../lib/search.ts";
 
 const LIVE_PAGES = ["/", "/coverage", "/library"];
 
-/** Filters the current list page as you type; elsewhere, Enter searches the journey. */
+/** Filters the current list page as you type; elsewhere, Enter searches the curriculum page. */
 export default function SearchBox({ path, initialQ }: { path: string; initialQ: string }) {
   const live = LIVE_PAGES.includes(path);
   return (

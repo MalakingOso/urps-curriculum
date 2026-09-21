@@ -10,7 +10,7 @@ export default function ErrorPage({ error }: PageProps) {
       </Head>
       <h1>{notFound ? "Page not found" : "Something went wrong"}</h1>
       <p>
-        {notFound ? "There's no page at this address." : "The page failed to load."} <a href="/">Back to the journey</a>
+        {notFound ? "There's no page at this address." : "The page failed to load."} <a href="/">Back to the curriculum</a>
       </p>
     </section>
   );

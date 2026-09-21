@@ -3,7 +3,7 @@ import SearchBox from "../islands/SearchBox.tsx";
 import "../client.ts";
 
 const TABS = [
-  { href: "/", label: "Journey" },
+  { href: "/", label: "Curriculum" },
   { href: "/coverage", label: "Coverage" },
   { href: "/library", label: "Library" },
 ];
