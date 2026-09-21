@@ -1,5 +1,5 @@
 import { assert, assertEquals } from "@std/assert";
-import { blocks, chapterMap, gtlSections, libraryEntries, sessions, summary } from "../lib/curriculum.ts";
+import { blocks, chapterMap, gtlSections, libraryEntries, sessions, summary, textbookChapters } from "../lib/curriculum.ts";
 
 Deno.test("session counts match the GTL mapping document", () => {
   assertEquals(summary.sessions, 60);
@@ -43,6 +43,8 @@ Deno.test("every PMID article has baked PubMed metadata", () => {
 
 Deno.test("chapter map is consistent with session readings", () => {
   const { chapters, max } = chapterMap();
-  assertEquals(max, Math.max(...sessions.flatMap((s) => s.waltersChapters)));
+  assertEquals(max, textbookChapters.length);
+  assertEquals(textbookChapters.map((c) => c.number), Array.from({ length: max }, (_, i) => i + 1));
+  for (const c of Object.keys(chapters)) assert(Number(c) <= max, `chapter ${c} is not in the textbook`);
   assertEquals(chapters[1].map((s) => s.number), [1]);
 });

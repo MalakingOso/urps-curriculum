@@ -1,6 +1,6 @@
 import type { PageProps } from "fresh";
 import { Head } from "fresh/runtime";
-import { chapterMap, gtlSections, libraryEntries } from "../lib/curriculum.ts";
+import { chapterMap, gtlSections, libraryEntries, textbookChapters } from "../lib/curriculum.ts";
 import Library from "../islands/Library.tsx";
 
 const { entries, other } = libraryEntries();
@@ -23,7 +23,7 @@ export default function LibraryPage({ url }: PageProps) {
         entries={entries}
         other={other}
         chapters={chapters}
-        maxChapter={max}
+        chapterTitles={textbookChapters}
         gtlSections={gtlSections}
         initialQ={url.searchParams.get("q") ?? ""}
       />

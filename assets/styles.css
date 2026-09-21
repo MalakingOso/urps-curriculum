@@ -153,8 +153,15 @@ button, select, input { font: inherit; color: inherit; }
 .ch.on { border: 0; cursor: pointer; color: var(--on-accent);
   background: color-mix(in srgb, var(--accent) calc(40% + var(--n) * 15%), var(--bg)); }
 .ch.sel { outline: 2px solid var(--ink); outline-offset: 1px; }
-.ch-detail { font-size: .9em; color: var(--muted); min-height: 1.5em; }
-.ch-detail a { color: var(--accent); }
+.walters .lead { margin: 0 0 12px; color: var(--muted); font-size: .92em; max-width: 62ch; }
+.ch-legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 10px 0 0; font-size: .8rem; color: var(--muted); align-items: center; }
+.ch-key { display: inline-block; width: 14px; height: 14px; border-radius: 4px; vertical-align: -2px; margin-right: 5px;
+  background: color-mix(in srgb, var(--accent) calc(40% + var(--n) * 15%), var(--bg)); }
+.ch-key.off { background: none; border: 1px dashed var(--line); }
+.ch-detail { display: grid; gap: 2px; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); min-height: 4.5em; }
+.ch-num { font-family: var(--font-mono); font-size: .78rem; color: var(--muted); }
+.ch-title { font-family: var(--font-display); font-size: 1.12rem; line-height: 1.3; }
+.ch-detail .in a { color: var(--accent); }
 .library { margin-top: 12px; }
 .other { margin-top: 32px; }
 .other h2 { font-size: 1.1rem; }

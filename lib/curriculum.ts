@@ -51,6 +51,11 @@ export interface GtlSection {
   name: string;
 }
 
+export interface TextbookChapter {
+  number: number;
+  title: string;
+}
+
 export interface UrpDomain {
   code: string;
   name: string;
@@ -62,11 +67,12 @@ interface Curriculum {
   blocks: Block[];
   gtlSections: GtlSection[];
   urpDomains: UrpDomain[];
+  textbookChapters: TextbookChapter[];
   sessions: Session[];
 }
 
 export const curriculum = data as unknown as Curriculum;
-export const { blocks, gtlSections, urpDomains, sessions } = curriculum;
+export const { blocks, gtlSections, urpDomains, textbookChapters, sessions } = curriculum;
 
 export const KIND_LABEL: Record<Kind, string> = {
   clinical: "Clinical",
@@ -184,11 +190,11 @@ export function libraryEntries(): { entries: LibraryEntry[]; other: { citation: 
   };
 }
 
-/** Walters & Karam chapter -> sessions assigning it. */
+/** Walters & Karam chapter -> sessions assigning it; `max` is the number of chapters in the book. */
 export function chapterMap(): { max: number; chapters: Record<number, { number: number; title: string }[]> } {
   const chapters: Record<number, { number: number; title: string }[]> = {};
   for (const s of sessions) {
     for (const c of s.waltersChapters) (chapters[c] ??= []).push({ number: s.number, title: s.title });
   }
-  return { max: Math.max(...Object.keys(chapters).map(Number)), chapters };
+  return { max: textbookChapters.length, chapters };
 }

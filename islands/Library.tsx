@@ -1,6 +1,6 @@
 import { Fragment } from "preact";
 import { useSignal } from "@preact/signals";
-import type { GtlSection, LibraryEntry } from "../lib/curriculum.ts";
+import type { GtlSection, LibraryEntry, TextbookChapter } from "../lib/curriculum.ts";
 import { currentQuery, matchesQuery } from "../lib/search.ts";
 import ArticleItem from "../components/ArticleItem.tsx";
 
@@ -11,16 +11,19 @@ interface Props {
   entries: LibraryEntry[];
   other: { citation: string; sessions: number[] }[];
   chapters: Record<number, { number: number; title: string }[]>;
-  maxChapter: number;
+  chapterTitles: TextbookChapter[];
   gtlSections: GtlSection[];
   initialQ: string;
 }
 
-export default function Library({ entries, other, chapters, maxChapter, gtlSections, initialQ }: Props) {
+export default function Library({ entries, other, chapters, chapterTitles, gtlSections, initialQ }: Props) {
   const sort = useSignal<Sort>("order");
   const gtl = useSignal("");
   const free = useSignal(false);
-  const ch = useSignal(0);
+  // Start on an example (the lowest-numbered of the most-assigned chapters) so the detail line explains the grid.
+  const assigned = Object.keys(chapters).map(Number);
+  const most = Math.max(...assigned.map((c) => chapters[c].length));
+  const ch = useSignal(Math.min(...assigned.filter((c) => chapters[c].length === most)));
   const q = currentQuery(initialQ);
 
   const sorters: Record<Sort, (a: LibraryEntry, b: LibraryEntry) => number> = {
@@ -41,15 +44,21 @@ export default function Library({ entries, other, chapters, maxChapter, gtlSecti
     )
     .sort(sorters[sort.value]);
   const chSel = ch.value ? chapters[ch.value] : null;
+  const chTitle = (c: number) => chapterTitles.find((t) => t.number === c)?.title ?? `Chapter ${c}`;
 
   return (
     <>
       <section class="walters">
         <h2>
-          Walters &amp; Karam, 5th ed. <span class="muted">Chapters assigned</span>
+          Textbook chapters to read <span class="muted">Walters &amp; Karam, 5th ed.</span>
         </h2>
+        <p class="lead">
+          Each square is a chapter of the course textbook. {assigned.length} of {chapterTitles.length} are assigned
+          reading for at least one session; darker squares are assigned more often. Select a chapter to see its title
+          and sessions.
+        </p>
         <div class="chapters" role="list">
-          {Array.from({ length: maxChapter }, (_, i) => i + 1).map((c) => {
+          {chapterTitles.map(({ number: c, title }) => {
             const ss = chapters[c];
             return ss
               ? (
@@ -59,31 +68,41 @@ export default function Library({ entries, other, chapters, maxChapter, gtlSecti
                   role="listitem"
                   class={`ch on ${ch.value === c ? "sel" : ""}`}
                   style={`--n:${Math.min(ss.length, 4)}`}
-                  title={`Ch. ${c}: sessions ${ss.map((s) => s.number).join(", ")}`}
+                  title={`Ch. ${c}: ${title}`}
                   aria-pressed={ch.value === c}
                   onClick={() => (ch.value = ch.value === c ? 0 : c)}
                 >
                   {c}
                 </button>
               )
-              : <span key={c} role="listitem" class="ch" title={`Ch. ${c}: not assigned`}>{c}</span>;
+              : <span key={c} role="listitem" class="ch" title={`Ch. ${c}: ${title} (not assigned)`}>{c}</span>;
           })}
         </div>
-        <p class="ch-detail" aria-live="polite">
+        <p class="ch-legend">
+          <span><i class="ch-key" style="--n:1" />1 session</span>
+          <span><i class="ch-key" style="--n:2" />2</span>
+          <span><i class="ch-key" style="--n:4" />3 or more</span>
+          <span><i class="ch-key off" />Not assigned</span>
+        </p>
+        <div class="ch-detail" aria-live="polite">
           {chSel
             ? (
               <>
-                <b>Chapter {ch.value}</b>, assigned in{" "}
-                {chSel.map((s, i) => (
-                  <Fragment key={s.number}>
-                    {i > 0 && ", "}
-                    <a href={`/sessions/${s.number}`}>{pad(s.number)} {s.title}</a>
-                  </Fragment>
-                ))}
+                <span class="ch-num">Chapter {ch.value}</span>
+                <span class="ch-title">{chTitle(ch.value)}</span>
+                <span class="in">
+                  Assigned reading for{" "}
+                  {chSel.map((s, i) => (
+                    <Fragment key={s.number}>
+                      {i > 0 && ", "}
+                      <a href={`/sessions/${s.number}`} title={s.title}>Session {pad(s.number)}</a>
+                    </Fragment>
+                  ))}
+                </span>
               </>
             )
-            : "Select a chapter to see which sessions assign it."}
-        </p>
+            : <span class="in">Select a chapter to see its title and the sessions that assign it.</span>}
+        </div>
       </section>
 
       <div class="filters">

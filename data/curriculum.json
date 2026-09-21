@@ -139,6 +139,172 @@
       "description": "Congenital anomalies, post-cancer care, mesh/graft materials, perioperative management"
     }
   ],
+  "textbookChapters": [
+    {
+      "number": 1,
+      "title": "Anatomy of the Lower Urinary Tract, Pelvic Floor, and Rectum"
+    },
+    {
+      "number": 2,
+      "title": "Embryology and Congenital Anomalies of the Urinary Tract, Rectum, and Female Genital System"
+    },
+    {
+      "number": 3,
+      "title": "Neurophysiology and Pharmacology of the Lower Urinary Tract"
+    },
+    {
+      "number": 4,
+      "title": "Physiology of the Pelvic Muscles, Vagina, and Anorectum"
+    },
+    {
+      "number": 5,
+      "title": "Pathophysiology of Pelvic Floor Disorders"
+    },
+    {
+      "number": 6,
+      "title": "Epidemiology and Psychosocial Impact of Female Pelvic Floor Disorders"
+    },
+    {
+      "number": 7,
+      "title": "Synthetic Mesh and Biologic Grafts: Properties and Biomechanics"
+    },
+    {
+      "number": 8,
+      "title": "Description and Classification of Lower Urinary Tract Dysfunction and Pelvic Organ Prolapse"
+    },
+    {
+      "number": 9,
+      "title": "Evaluation of Pelvic Floor Disorders: History, Physical Examination, and Diagnostic Testing"
+    },
+    {
+      "number": 10,
+      "title": "Female Sexual Function and Dysfunction: Assessment and Treatment"
+    },
+    {
+      "number": 11,
+      "title": "Urodynamics: Indications, Techniques, Interpretation, and Clinical Utility"
+    },
+    {
+      "number": 12,
+      "title": "Endoscopic Assessment of the Lower Urinary Tract"
+    },
+    {
+      "number": 13,
+      "title": "Radiologic Studies of the Lower Urinary Tract and Pelvic Floor"
+    },
+    {
+      "number": 14,
+      "title": "Stress Urinary Incontinence and Pelvic Organ Prolapse: Nonsurgical Management"
+    },
+    {
+      "number": 15,
+      "title": "Retropubic Operations for Stress Urinary Incontinence"
+    },
+    {
+      "number": 16,
+      "title": "Biologic Bladder Neck Slings for Stress Urinary Incontinence"
+    },
+    {
+      "number": 17,
+      "title": "Synthetic Midurethral Slings for Stress Urinary Incontinence"
+    },
+    {
+      "number": 18,
+      "title": "Urethral Injection of Bulking Agents for Intrinsic Sphincter Deficiency"
+    },
+    {
+      "number": 19,
+      "title": "Surgical Treatment of Anterior Vaginal Wall Prolapse"
+    },
+    {
+      "number": 20,
+      "title": "Surgical Treatment of Posterior Vaginal Wall Prolapse"
+    },
+    {
+      "number": 21,
+      "title": "Surgical Treatment of Vaginal Apex Prolapse"
+    },
+    {
+      "number": 22,
+      "title": "Uterine Preservation in Pelvic Organ Prolapse Surgery"
+    },
+    {
+      "number": 23,
+      "title": "Obliterative Procedures for Pelvic Organ Prolapse"
+    },
+    {
+      "number": 24,
+      "title": "Avoiding and Managing Lower Urinary Tract Injuries During Pelvic Surgery"
+    },
+    {
+      "number": 25,
+      "title": "Managing Mesh Complications After Surgeries for Urinary Incontinence and Pelvic Organ Prolapse"
+    },
+    {
+      "number": 26,
+      "title": "Complications of Pelvic Reconstructive Surgery"
+    },
+    {
+      "number": 27,
+      "title": "Fecal Incontinence"
+    },
+    {
+      "number": 28,
+      "title": "Constipation"
+    },
+    {
+      "number": 29,
+      "title": "Rectovaginal Fistula and Perineal Breakdown"
+    },
+    {
+      "number": 30,
+      "title": "Full-Thickness Rectal Prolapse"
+    },
+    {
+      "number": 31,
+      "title": "Overactive Bladder Syndrome, Polyuria, and Nocturia"
+    },
+    {
+      "number": 32,
+      "title": "Refractory Overactive Bladder"
+    },
+    {
+      "number": 33,
+      "title": "Neurourology and Compliance Abnormalities"
+    },
+    {
+      "number": 34,
+      "title": "Voiding Dysfunction in Women"
+    },
+    {
+      "number": 35,
+      "title": "Interstitial Cystitis/Bladder Pain Syndrome"
+    },
+    {
+      "number": 36,
+      "title": "Lower Urinary Tract Infection"
+    },
+    {
+      "number": 37,
+      "title": "Urethral Diverticula"
+    },
+    {
+      "number": 38,
+      "title": "Lower Urinary Tract Fistulas"
+    },
+    {
+      "number": 39,
+      "title": "Bladder Drainage and Urinary Protective Methods"
+    },
+    {
+      "number": 40,
+      "title": "Urology for the Urogynecologist"
+    },
+    {
+      "number": 41,
+      "title": "Outcomes and Quality-of-Life Measures in Pelvic Floor Research"
+    }
+  ],
   "sessions": [
     {
       "number": 1,
