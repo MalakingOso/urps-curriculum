@@ -19,7 +19,7 @@ export const SYNONYMS: string[][] = [
   ["pvr", "post void residual", "postvoid residual"],
   ["isc", "cic", "intermittent catheterization", "self catheterization", "clean intermittent catheterization"],
   ["bps", "ic", "bps ic", "pbs", "bladder pain syndrome", "interstitial cystitis", "painful bladder syndrome"],
-  ["uti", "urinary tract infection", "ruti", "recurrent uti", "cystitis"],
+  ["uti", "urinary tract infection", "ruti", "recurrent uti"],
   ["asb", "asymptomatic bacteriuria"],
   // Prolapse
   ["pop", "pelvic organ prolapse"],
@@ -55,7 +55,7 @@ export const SYNONYMS: string[][] = [
   ["pfmt", "pelvic floor muscle training", "kegel", "kegels", "pelvic floor exercises"],
   ["pfpt", "pelvic floor physical therapy"],
   // Slings
-  ["mus", "midurethral sling", "mid urethral sling", "sling", "tvt", "tension free vaginal tape", "tot", "transobturator tape", "retropubic sling", "transobturator sling"],
+  ["mus", "midurethral sling", "mid urethral sling", "tvt", "tension free vaginal tape", "tot", "transobturator tape", "retropubic sling", "transobturator sling"],
   ["burch", "colposuspension"],
   // Imaging
   ["mri", "magnetic resonance imaging", "mr defecography", "dynamic mri"],
@@ -66,10 +66,10 @@ export const SYNONYMS: string[][] = [
   // Vulvovaginal, hormones, gender-affirming care
   ["gsm", "genitourinary syndrome of menopause", "vaginal atrophy", "atrophic vaginitis", "vulvovaginal atrophy", "vva"],
   ["vaginal estrogen", "topical estrogen", "local estrogen"],
-  ["hrt", "mht", "hormone therapy", "menopausal hormone therapy", "hormone replacement"],
+  ["hrt", "mht", "menopausal hormone therapy", "hormone replacement"],
   ["gender affirming", "gender affirmation", "transgender", "transmasculine", "transfeminine"],
   // Pain
-  ["cpp", "chronic pelvic pain", "pelvic pain"],
+  ["cpp", "chronic pelvic pain"],
   ["myofascial pelvic pain", "levator myalgia", "pelvic floor myalgia", "hypertonic pelvic floor", "high tone pelvic floor"],
   // Perioperative
   ["eras", "enhanced recovery after surgery", "enhanced recovery"],
@@ -101,4 +101,11 @@ export const SYNONYMS: string[][] = [
   ["ics", "international continence society"],
   ["iuga", "international urogynecological association"],
   ["fpmrs", "female pelvic medicine", "urogynecology", "urogynecologic"],
+];
+
+// One-way rules: anything mentioning a term on the left can also be found by the terms on the
+// right, but not the reverse. A broader search word reaches narrower topics this way without
+// dragging them into each other's results ("cystitis" finds UTI sessions; "UTI" doesn't find IC).
+export const ALSO_FOUND_BY: [string[], string[]][] = [
+  [["uti", "urinary tract infection"], ["cystitis"]],
 ];

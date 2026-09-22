@@ -1,6 +1,6 @@
 import { signal } from "@preact/signals";
 import { IS_BROWSER } from "fresh/runtime";
-import { SYNONYMS } from "./synonyms.ts";
+import { ALSO_FOUND_BY, SYNONYMS } from "./synonyms.ts";
 
 // Shared by the header search box and whichever list island is on the page. Islands read
 // `initialQ` (from the URL) on the server instead, so no request state lives in this module.
@@ -13,15 +13,20 @@ export const normalize = (s: string) =>
   s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
 const GROUPS = SYNONYMS.map((g) => g.map(normalize));
+const ONE_WAY = ALSO_FOUND_BY.map(([from, to]) => [from.map(normalize), to.map(normalize)] as const);
 const STOPWORDS = new Set(["a", "an", "and", "the", "of", "for", "in", "on", "to", "with", "or", "vs"]);
 
 /**
  * Builds the search text for one item: normalized, space-padded so whole words can be matched
- * with " word ", and expanded with every synonym of any term it contains.
+ * with " word ", and expanded with every synonym of any term it contains (plus one-way extras).
  */
 export function searchable(parts: (string | null | undefined)[]): string {
   const base = ` ${normalize(parts.filter(Boolean).join(" "))} `;
-  const extra = GROUPS.filter((g) => g.some((t) => base.includes(` ${t} `))).flat();
+  const has = (t: string) => base.includes(` ${t} `);
+  const extra = [
+    ...GROUPS.filter((g) => g.some(has)).flat(),
+    ...ONE_WAY.filter(([from]) => from.some(has)).flatMap(([, to]) => to),
+  ];
   return `${base}${extra.join(" ")} `;
 }
 

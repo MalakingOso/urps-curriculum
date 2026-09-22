@@ -18,6 +18,8 @@ Deno.test("abbreviations and spelled-out terms find each other", () => {
   assert(sessionsFor("interstitial cystitis").includes(34));
   assert(sessionsFor("sacral neuromodulation").includes(7));
   for (const n of [27, 34, 35]) assert(sessionsFor("cystitis").includes(n));
+  // one-way: UTI searches don't pull in interstitial cystitis
+  for (const n of [34, 35, 55]) assert(!sessionsFor("uti").includes(n));
 });
 
 Deno.test("punctuation, accents and plurals are ignored", () => {
