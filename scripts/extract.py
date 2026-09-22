@@ -216,7 +216,7 @@ def main():
         if p["title"].strip() != topic.strip():
             sys.exit(f"session {n}: xlsx topic {topic!r} != PDF {p['title']!r}")
         codes = None if codes == "N/A" else codes
-        kind = "mock" if topic.startswith("Mock Oral Boards") else ("clinical" if codes else "professional")
+        kind = "mock" if topic.startswith("Mock Oral Boards") else ("clinical" if codes else "professional")  # kind is now hand-maintained in data/curriculum.json (sessions 19, 22, 33, 36, 37, 40 are clinical)
         reading = re.sub(r"Review all Year 1 Spring topics", "Review all Block 1 topics", reading)
         reading = re.sub(r"Review all Year 1 Fall topics", "Review all Block 2 topics", reading)
         sessions.append({

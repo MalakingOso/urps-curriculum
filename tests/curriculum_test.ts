@@ -1,9 +1,9 @@
 import { assert, assertEquals } from "@std/assert";
 import { blocks, chapterMap, gtlSections, libraryEntries, sessions, summary, textbookChapters } from "../lib/curriculum.ts";
 
-Deno.test("session counts match the GTL mapping document", () => {
+Deno.test("session counts (clinical includes GTL-clinical sessions without a Blueprint code)", () => {
   assertEquals(summary.sessions, 60);
-  assertEquals([summary.clinical, summary.professional, summary.mock], [42, 14, 4]);
+  assertEquals([summary.clinical, summary.professional, summary.mock], [48, 8, 4]);
   assertEquals(sessions.map((s) => s.number), Array.from({ length: 60 }, (_, i) => i + 1));
 });
 

@@ -49,7 +49,7 @@ export default function Coverage({ sessions, blocks, gtlSections, urpDomains, in
   const band = (s: SessionSummary) => {
     if (s.kind === "mock") return `Mock oral boards · ${s.number === sessions.length ? "all domains" : `reviews Block ${s.block}`}`;
     if (gtlLens && s.gtl.length >= 11) return s.gtlLabel;
-    if (!gtlLens && !s.urpDomains.length) return "No Blueprint code · professional development";
+    if (!gtlLens && !s.urpDomains.length) return "No Blueprint code";
     return null;
   };
   const direct = sessions.filter((s) => !band(s));
