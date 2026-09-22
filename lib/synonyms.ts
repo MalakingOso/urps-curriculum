@@ -19,7 +19,7 @@ export const SYNONYMS: string[][] = [
   ["pvr", "post void residual", "postvoid residual"],
   ["isc", "cic", "intermittent catheterization", "self catheterization", "clean intermittent catheterization"],
   ["bps", "ic", "bps ic", "pbs", "bladder pain syndrome", "interstitial cystitis", "painful bladder syndrome"],
-  ["uti", "urinary tract infection", "ruti", "recurrent uti"],
+  ["uti", "urinary tract infection", "ruti", "recurrent uti", "cystitis"],
   ["asb", "asymptomatic bacteriuria"],
   // Prolapse
   ["pop", "pelvic organ prolapse"],

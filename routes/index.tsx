@@ -1,13 +1,11 @@
 import type { PageProps } from "fresh";
-import { blocks, gtlSections, summaries, summary } from "../lib/curriculum.ts";
+import { blocks, gtlSections, KIND_LABEL, KINDS, summaries, summary } from "../lib/curriculum.ts";
 import Journey from "../islands/Journey.tsx";
 
 export default function Home({ url }: PageProps) {
   const stats: [number, string][] = [
     [summary.sessions, "sessions"],
-    [summary.clinical, "clinical"],
-    [summary.professional, "professional"],
-    [summary.mock, "mock oral boards"],
+    ...KINDS.map((k): [number, string] => [summary.kinds[k], k === "mock" ? "mock oral boards" : KIND_LABEL[k].toLowerCase()]),
     [summary.articles, "articles"],
   ];
   return (

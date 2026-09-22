@@ -1,8 +1,7 @@
 import { useSignal } from "@preact/signals";
-import type { Block, GtlSection, Kind, SessionSummary } from "../lib/curriculum.ts";
+import { type Block, type GtlSection, type Kind, KIND_LABEL, KINDS, type SessionSummary } from "../lib/curriculum.ts";
 import { currentQuery, matchesQuery } from "../lib/search.ts";
 
-const KIND_LABEL: Record<Kind, string> = { clinical: "Clinical", professional: "Professional", mock: "Mock boards" };
 const pad = (n: number) => String(n).padStart(2, "0");
 
 interface Props {
@@ -27,7 +26,7 @@ export default function Journey({ sessions, blocks, gtlSections, initialQ }: Pro
     <>
       <div class="filters" role="group" aria-label="Filters">
         <div class="seg" role="group" aria-label="Session type">
-          {(["all", "clinical", "professional", "mock"] as const).map((k) => (
+          {(["all", ...KINDS] as const).map((k) => (
             <button key={k} type="button" aria-pressed={kind.value === k} onClick={() => (kind.value = k)}>
               {k === "all" ? "All" : KIND_LABEL[k]}
             </button>
@@ -54,7 +53,8 @@ export default function Journey({ sessions, blocks, gtlSections, initialQ }: Pro
                 <p class="eyebrow">Year {b.year} · Block {b.number} · Sessions {b.sessions[0]}–{b.sessions[1]}</p>
                 <h2>{b.name}</h2>
                 <p class="block-stats">
-                  {list.length} sessions · {n("clinical")} clinical · {n("professional")} professional · {n("mock")} mock
+                  {[`${list.length} sessions`, ...KINDS.filter((k) => n(k)).map((k) => `${n(k)} ${KIND_LABEL[k].toLowerCase()}`)]
+                    .join(" · ")}
                 </p>
               </header>
               <ol class="toc">
@@ -69,7 +69,7 @@ export default function Journey({ sessions, blocks, gtlSections, initialQ }: Pro
                           {s.urpCodes && <>{" · "}<span class="mono">{s.urpCodes}</span></>}
                         </span>
                       </span>
-                      {s.kind !== "clinical" && <span class={`kind kind-${s.kind}`}>{KIND_LABEL[s.kind]}</span>}
+                      <span class={`kind kind-${s.kind}`}>{KIND_LABEL[s.kind]}</span>
                       <span class="dots" aria-label={s.gtl.map((k) => gtlName[k]).join(", ")}>
                         {s.gtl.map((k) => <i key={k} style={`--c:var(--g-${k})`} />)}
                       </span>

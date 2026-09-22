@@ -17,6 +17,7 @@ Deno.test("abbreviations and spelled-out terms find each other", () => {
   assert(sessionsFor("stress urinary incontinence").includes(4));
   assert(sessionsFor("interstitial cystitis").includes(34));
   assert(sessionsFor("sacral neuromodulation").includes(7));
+  for (const n of [27, 34, 35]) assert(sessionsFor("cystitis").includes(n));
 });
 
 Deno.test("punctuation, accents and plurals are ignored", () => {

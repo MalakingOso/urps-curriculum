@@ -309,7 +309,7 @@
     {
       "number": 1,
       "block": 1,
-      "kind": "clinical",
+      "kind": "anatomy",
       "title": "Pelvic Floor Anatomy & Levels of Support",
       "urpCodes": "URP1.1.A-C",
       "urpDomains": [
@@ -376,7 +376,7 @@
     {
       "number": 2,
       "block": 1,
-      "kind": "clinical",
+      "kind": "anatomy",
       "title": "Lower Urinary Tract Function & Continence Mechanisms",
       "urpCodes": "URP4.1.A-F",
       "urpDomains": [
@@ -432,7 +432,7 @@
     {
       "number": 3,
       "block": 1,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "Perioperative Management & ERAS Protocols",
       "urpCodes": "URP9.5.A-D",
       "urpDomains": [
@@ -483,7 +483,7 @@
     {
       "number": 4,
       "block": 1,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "SUI: Comprehensive Evaluation & Treatment",
       "urpCodes": "URP4.2.A-E, URP4.3.A-G",
       "urpDomains": [
@@ -610,7 +610,7 @@
     {
       "number": 6,
       "block": 1,
-      "kind": "clinical",
+      "kind": "office",
       "title": "OAB: Evaluation & Behavioral/Pharmacologic Management",
       "urpCodes": "URP4.4.A-J",
       "urpDomains": [
@@ -676,7 +676,7 @@
     {
       "number": 7,
       "block": 1,
-      "kind": "clinical",
+      "kind": "office",
       "title": "OAB: Advanced Therapies (Botox, SNM, PTNS)",
       "urpCodes": "URP4.4.F-I",
       "urpDomains": [
@@ -744,7 +744,7 @@
     {
       "number": 8,
       "block": 1,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Advanced Urodynamics & Interpretation",
       "urpCodes": "URP4.2.E",
       "urpDomains": [
@@ -800,7 +800,7 @@
     {
       "number": 9,
       "block": 1,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Nocturia: Evaluation & Management",
       "urpCodes": "URP4.5.A-D",
       "urpDomains": [
@@ -845,7 +845,7 @@
     {
       "number": 10,
       "block": 1,
-      "kind": "clinical",
+      "kind": "office",
       "title": "POP: Evaluation, POP-Q & Pessary Management",
       "urpCodes": "URP1.2.A-B, URP1.3.A-E",
       "urpDomains": [
@@ -931,7 +931,7 @@
     {
       "number": 11,
       "block": 1,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "POP: Apical Compartment Procedures",
       "urpCodes": "URP1.4.A-E",
       "urpDomains": [
@@ -988,7 +988,7 @@
     {
       "number": 12,
       "block": 1,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "POP: Anterior & Posterior Compartment Procedures",
       "urpCodes": "URP1.5.A-C, URP1.6.A-D",
       "urpDomains": [
@@ -1064,7 +1064,7 @@
     {
       "number": 13,
       "block": 1,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "Obliterative Procedures for POP",
       "urpCodes": "URP1.7.A-C",
       "urpDomains": [
@@ -1121,7 +1121,7 @@
     {
       "number": 14,
       "block": 1,
-      "kind": "clinical",
+      "kind": "imaging",
       "title": "Pelvic Floor Imaging: MRI",
       "urpCodes": "URP2.2.B",
       "urpDomains": [
@@ -1166,7 +1166,7 @@
     {
       "number": 15,
       "block": 1,
-      "kind": "clinical",
+      "kind": "imaging",
       "title": "Pelvic Floor Imaging: Ultrasound & Defecography",
       "urpCodes": "URP2.2.B",
       "urpDomains": [
@@ -1239,7 +1239,7 @@
     {
       "number": 17,
       "block": 2,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Fecal Incontinence: Evaluation & Management",
       "urpCodes": "URP2.1.A-C, URP2.2.A-B",
       "urpDomains": [
@@ -1309,7 +1309,7 @@
     {
       "number": 18,
       "block": 2,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Defecatory Dysfunction: Diagnosis & Treatment",
       "urpCodes": "URP2.3.A-B, URP2.4.A-B, URP2.5.A-B",
       "urpDomains": [
@@ -1381,7 +1381,7 @@
     {
       "number": 19,
       "block": 2,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Geriatric Urogynecology & Frailty Assessment",
       "urpCodes": null,
       "urpDomains": [],
@@ -1443,7 +1443,7 @@
     {
       "number": 20,
       "block": 2,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "OASIS: Prevention, Repair & Long-term Management",
       "urpCodes": "URP2.8.A-B",
       "urpDomains": [
@@ -1524,7 +1524,7 @@
     {
       "number": 21,
       "block": 2,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "Rectovaginal Fistula Repair",
       "urpCodes": "URP2.6.A-B",
       "urpDomains": [
@@ -1588,7 +1588,7 @@
     {
       "number": 22,
       "block": 2,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Sexual Function & Pelvic Floor Disorders",
       "urpCodes": null,
       "urpDomains": [],
@@ -1630,7 +1630,7 @@
     {
       "number": 23,
       "block": 2,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Vulvar Dermatoses & GSM",
       "urpCodes": "URP6.2.A",
       "urpDomains": [
@@ -1688,7 +1688,7 @@
     {
       "number": 24,
       "block": 2,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "Urethral Diverticula & Periurethral Masses",
       "urpCodes": "URP3.1.A-B, URP3.2.A-B, URP3.3.A-D",
       "urpDomains": [
@@ -1757,7 +1757,7 @@
     {
       "number": 25,
       "block": 2,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "Vesicovaginal Fistula Repair",
       "urpCodes": "URP8.2.A-G",
       "urpDomains": [
@@ -1831,7 +1831,7 @@
     {
       "number": 26,
       "block": 2,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "Ureterovaginal Fistula & Ureteral Injury",
       "urpCodes": "URP8.3.A-C",
       "urpDomains": [
@@ -1894,7 +1894,7 @@
     {
       "number": 27,
       "block": 2,
-      "kind": "clinical",
+      "kind": "office",
       "title": "UTI: Recurrent & Complicated Infections",
       "urpCodes": "URP6.1.A-E, URP6.2.B",
       "urpDomains": [
@@ -1964,7 +1964,7 @@
     {
       "number": 28,
       "block": 2,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Hematuria Evaluation",
       "urpCodes": "URP6.1.E",
       "urpDomains": [
@@ -2111,7 +2111,7 @@
     {
       "number": 31,
       "block": 3,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Neurogenic LUTD: Pathophysiology & Evaluation",
       "urpCodes": "URP5.1.A-E, URP5.2.A-F",
       "urpDomains": [
@@ -2184,7 +2184,7 @@
     {
       "number": 32,
       "block": 3,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Urinary Retention & Voiding Dysfunction",
       "urpCodes": "URP5.3.A-C",
       "urpDomains": [
@@ -2229,7 +2229,7 @@
     {
       "number": 33,
       "block": 3,
-      "kind": "clinical",
+      "kind": "office",
       "title": "PROs & Questionnaire Validation in Urogynecology",
       "urpCodes": null,
       "urpDomains": [],
@@ -2274,7 +2274,7 @@
     {
       "number": 34,
       "block": 3,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Bladder Pain Syndrome/IC: Evaluation",
       "urpCodes": "URP7.1.A-B, URP7.2.A-C",
       "urpDomains": [
@@ -2331,7 +2331,7 @@
     {
       "number": 35,
       "block": 3,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Bladder Pain Syndrome/IC: Treatment",
       "urpCodes": "URP7.3.A-H",
       "urpDomains": [
@@ -2396,7 +2396,7 @@
     {
       "number": 36,
       "block": 3,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Gender-Affirming Care: Hormone Therapy",
       "urpCodes": "URP9.3.A",
       "urpDomains": [
@@ -2438,7 +2438,7 @@
     {
       "number": 37,
       "block": 3,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "Gender-Affirming Care: Surgical Approaches",
       "urpCodes": "URP9.3.A",
       "urpDomains": [
@@ -2492,7 +2492,7 @@
     {
       "number": 38,
       "block": 3,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Myofascial Pelvic Pain",
       "urpCodes": "URP7.1.B, URP7.2.A",
       "urpDomains": [
@@ -2542,7 +2542,7 @@
     {
       "number": 39,
       "block": 3,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "Intraoperative Bladder & Urethral Injury",
       "urpCodes": "URP8.1.A-F, URP8.2.A-B, URP8.4.A-C",
       "urpDomains": [
@@ -2607,7 +2607,7 @@
     {
       "number": 40,
       "block": 3,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "Cystoscopy Skills & Lower Urinary Tract Evaluation",
       "urpCodes": null,
       "urpDomains": [],
@@ -2649,7 +2649,7 @@
     {
       "number": 41,
       "block": 3,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "Mesh Complications: Evaluation & Management",
       "urpCodes": "URP9.4.A-C",
       "urpDomains": [
@@ -2707,7 +2707,7 @@
     {
       "number": 42,
       "block": 3,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Post-Cancer Pelvic Floor Care",
       "urpCodes": "URP9.2.A-C",
       "urpDomains": [
@@ -2763,7 +2763,7 @@
     {
       "number": 43,
       "block": 3,
-      "kind": "clinical",
+      "kind": "anatomy",
       "title": "Congenital Anomalies of the Urogenital System",
       "urpCodes": "URP9.1.A-B",
       "urpDomains": [
@@ -2856,7 +2856,7 @@
     {
       "number": 45,
       "block": 3,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "Rectal Prolapse: Evaluation & Surgical Management",
       "urpCodes": "URP2.7.A",
       "urpDomains": [
@@ -2981,7 +2981,7 @@
     {
       "number": 47,
       "block": 4,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "SUI Review: Evaluation to Surgical Management",
       "urpCodes": "URP4.3.A-G",
       "urpDomains": [
@@ -3066,7 +3066,7 @@
     {
       "number": 48,
       "block": 4,
-      "kind": "clinical",
+      "kind": "office",
       "title": "OAB Review: Comprehensive Management",
       "urpCodes": "URP4.4.A-J",
       "urpDomains": [
@@ -3110,7 +3110,7 @@
     {
       "number": 49,
       "block": 4,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "POP Review: Surgical Approaches",
       "urpCodes": "URP1.4.A-E, URP1.5.A-C, URP1.6.A-D",
       "urpDomains": [
@@ -3228,7 +3228,7 @@
     {
       "number": 51,
       "block": 4,
-      "kind": "clinical",
+      "kind": "office",
       "title": "Anorectal Disorders Review",
       "urpCodes": "URP2.1.A-C, URP2.2.A-B",
       "urpDomains": [
@@ -3288,7 +3288,7 @@
     {
       "number": 52,
       "block": 4,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "Perioperative Complications: Prevention & Management",
       "urpCodes": "URP9.5.A-D",
       "urpDomains": [
@@ -3345,7 +3345,7 @@
     {
       "number": 53,
       "block": 4,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "Urinary Tract Injury Review",
       "urpCodes": "URP8.1.A-F",
       "urpDomains": [
@@ -3421,7 +3421,7 @@
     {
       "number": 55,
       "block": 4,
-      "kind": "clinical",
+      "kind": "office",
       "title": "BPS/IC & Pelvic Pain Review",
       "urpCodes": "URP7.1.A-B, URP7.3.A-H",
       "urpDomains": [
@@ -3464,7 +3464,7 @@
     {
       "number": 56,
       "block": 4,
-      "kind": "clinical",
+      "kind": "surgical",
       "title": "Special Considerations Review",
       "urpCodes": "URP9.4.A-C, URP9.5.A-D",
       "urpDomains": [

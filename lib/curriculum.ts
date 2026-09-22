@@ -1,7 +1,9 @@
 import data from "../data/curriculum.json" with { type: "json" };
 import { searchable } from "./search.ts";
 
-export type Kind = "clinical" | "professional" | "mock";
+/** Clinical sessions are split into surgical, office, imaging and anatomy. */
+export const KINDS = ["surgical", "office", "imaging", "anatomy", "professional", "mock"] as const;
+export type Kind = typeof KINDS[number];
 
 export interface PubmedMeta {
   title: string;
@@ -76,7 +78,10 @@ export const curriculum = data as unknown as Curriculum;
 export const { blocks, gtlSections, urpDomains, textbookChapters, sessions } = curriculum;
 
 export const KIND_LABEL: Record<Kind, string> = {
-  clinical: "Clinical",
+  surgical: "Surgical",
+  office: "Office",
+  imaging: "Imaging",
+  anatomy: "Anatomy",
   professional: "Professional",
   mock: "Mock boards",
 };
@@ -153,9 +158,7 @@ export const summaries: SessionSummary[] = sessions.map((s) => ({
 
 export const summary = {
   sessions: sessions.length,
-  clinical: sessions.filter((s) => s.kind === "clinical").length,
-  professional: sessions.filter((s) => s.kind === "professional").length,
-  mock: sessions.filter((s) => s.kind === "mock").length,
+  kinds: Object.fromEntries(KINDS.map((k) => [k, sessions.filter((s) => s.kind === k).length])) as Record<Kind, number>,
   articles: new Set(sessions.flatMap((s) => [...s.primary, ...s.further]).filter((a) => a.pmid).map((a) => a.pmid))
     .size,
 };
