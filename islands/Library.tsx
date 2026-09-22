@@ -1,7 +1,7 @@
 import { Fragment } from "preact";
 import { useSignal } from "@preact/signals";
 import type { GtlSection, LibraryEntry, TextbookChapter } from "../lib/curriculum.ts";
-import { currentQuery, matchesQuery } from "../lib/search.ts";
+import { currentQuery, matchesQuery, searchable } from "../lib/search.ts";
 import ArticleItem from "../components/ArticleItem.tsx";
 
 const pad = (n: number) => String(n).padStart(2, "0");
@@ -156,7 +156,7 @@ export default function Library({ entries, other, chapters, chapterTitles, gtlSe
       <section class="other">
         <h2>Other resources</h2>
         <ul>
-          {other.map((o) => (
+          {other.filter((o) => matchesQuery(searchable([o.citation]), q)).map((o) => (
             <li key={o.citation}>
               {o.citation} <span class="muted">· sessions {o.sessions.join(", ")}</span>
             </li>
