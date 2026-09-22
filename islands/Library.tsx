@@ -36,11 +36,7 @@ export default function Library({ entries, other, chapters, chapterTitles, gtlSe
     .filter((e) =>
       (!free.value || e.article.pubmed?.pmcid) &&
       (!gtl.value || e.sessions.some((s) => s.gtl.includes(gtl.value))) &&
-      matchesQuery(
-        [e.article.citation, e.article.pubmed?.title, e.article.pubmed?.journal, ...e.sessions.map((s) => s.title)]
-          .join(" ").toLowerCase(),
-        q,
-      )
+      matchesQuery(e.text, q)
     )
     .sort(sorters[sort.value]);
   const chSel = ch.value ? chapters[ch.value] : null;

@@ -1,4 +1,5 @@
 import data from "../data/curriculum.json" with { type: "json" };
+import { searchable } from "./search.ts";
 
 export type Kind = "clinical" | "professional" | "mock";
 
@@ -117,7 +118,7 @@ export const pmcUrl = (pmcid: string) => `https://pmc.ncbi.nlm.nih.gov/articles/
 export const getSession = (n: number) => sessions.find((s) => s.number === n);
 export const blockOf = (s: Session) => blocks.find((b) => b.number === s.block)!;
 
-/** The slice of a session the interactive islands need, plus a lowercase search blob. */
+/** The slice of a session the interactive islands need, plus its search text (see `searchable`). */
 export interface SessionSummary {
   number: number;
   block: number;
@@ -139,7 +140,7 @@ export const summaries: SessionSummary[] = sessions.map((s) => ({
   gtlLabel: s.gtlLabel,
   urpCodes: s.urpCodes,
   urpDomains: s.urpDomains,
-  text: [
+  text: searchable([
     s.title,
     s.gtlLabel,
     s.urpCodes,
@@ -147,7 +148,7 @@ export const summaries: SessionSummary[] = sessions.map((s) => ({
     s.description,
     ...s.objectiveGroups.flatMap((g) => [g.heading, ...g.objectives]),
     ...[...s.primary, ...s.further].flatMap((a) => [a.citation, a.pubmed?.title]),
-  ].filter(Boolean).join(" ").toLowerCase(),
+  ]),
 }));
 
 export const summary = {
@@ -163,6 +164,7 @@ export interface LibraryEntry {
   article: Article;
   roles: string[];
   sessions: { number: number; title: string; gtl: string[] }[];
+  text: string;
 }
 
 /** Articles deduplicated by PMID; one assigned in several sessions appears once. */
@@ -176,7 +178,7 @@ export function libraryEntries(): { entries: LibraryEntry[]; other: { citation: 
           other.set(a.citation, [...(other.get(a.citation) ?? []), s.number]);
           continue;
         }
-        const e = byPmid.get(a.pmid) ?? { article: a, roles: [], sessions: [] };
+        const e = byPmid.get(a.pmid) ?? { article: a, roles: [], sessions: [], text: "" };
         if (a.label) e.article = a;
         if (!e.roles.includes(role)) e.roles.push(role);
         e.sessions.push({ number: s.number, title: s.title, gtl: s.gtl });
@@ -185,7 +187,10 @@ export function libraryEntries(): { entries: LibraryEntry[]; other: { citation: 
     }
   }
   return {
-    entries: [...byPmid.values()],
+    entries: [...byPmid.values()].map((e) => ({
+      ...e,
+      text: searchable([e.article.citation, e.article.pubmed?.title, e.article.pubmed?.journal, ...e.sessions.map((s) => s.title)]),
+    })),
     other: [...other].map(([citation, ss]) => ({ citation, sessions: ss })),
   };
 }
