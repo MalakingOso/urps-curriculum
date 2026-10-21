@@ -4,7 +4,7 @@
     "build": "vite build",
     "start": "deno serve -A _fresh/server.js",
     "check": "deno check main.ts routes/ islands/ lib/",
-    "test": "deno test --allow-read tests/",
+    "test": "deno test --allow-read --allow-env tests/",
     "extract": "python3 scripts/extract.py"
   },
   "imports": {
